@@ -1,0 +1,3 @@
+# Large source PDFs — exceed GitHub's 100MB per-file limit and bloat the repo.
+# Kept locally; use Git LFS if you ever want them versioned.
+*.pdf
