@@ -1,6 +1,13 @@
+---
+quizify:
+  format: 1
+  deck: Math_880::Chapter_1
+  tags: [Math, 880题, 数一, 第一章, 函数极限连续]
+---
+
 +++
 
-#### 选择 (1) 函数 $f(x)=|x\sin x|\,\mathrm{e}^{\cos x}$，$x\in(-\infty,+\infty)$，是（　）。
+#### 基础选择 (1) 函数 $f(x)=|x\sin x|\,\mathrm{e}^{\cos x}$，$x\in(-\infty,+\infty)$，是（　）。
 
 ;;;
 A. 单调函数
@@ -15,7 +22,7 @@ $f(-x)=|(-x)\sin(-x)|\,\mathrm{e}^{\cos(-x)}=|x\sin x|\,\mathrm{e}^{\cos x}=f(x)
 
 +++
 
-#### 选择 (2) 设函数 $f(x)=\cos(\sin x)$，$g(x)=\sin(\cos x)$，则当 $x\in\left(0,\dfrac{\pi}{2}\right)$ 时，（　）。
+#### 基础选择 (2) 设函数 $f(x)=\cos(\sin x)$，$g(x)=\sin(\cos x)$，则当 $x\in\left(0,\dfrac{\pi}{2}\right)$ 时，（　）。
 
 ;;;
 A. $f(x)$ 单调增加，$g(x)$ 单调减少
@@ -32,7 +39,7 @@ $\cos x$ 由 $1$ 减到 $0$，而 $\sin$ 在 $(0,1)$ 上递增，复合后 $g(x)
 
 +++
 
-#### 选择 (3) 设函数 $f(x)=\sqrt{1+x+x^2}-\sqrt{1-x+x^2}$，则（　）。
+#### 基础选择 (3) 设函数 $f(x)=\sqrt{1+x+x^2}-\sqrt{1-x+x^2}$，则（　）。
 
 ;;;
 A. $f(x)$ 为偶函数
@@ -47,7 +54,7 @@ $f(-x)=\sqrt{1-x+x^2}-\sqrt{1+x+x^2}=-f(x)$，故为**奇函数**，选 **B**。
 
 +++
 
-#### 选择 (4) 设当 $x\to+\infty$ 时，$f(x)$，$g(x)$ 都是无穷大，则当 $x\to+\infty$ 时，下列结论正确的是（　）。
+#### 基础选择 (4) 设当 $x\to+\infty$ 时，$f(x)$，$g(x)$ 都是无穷大，则当 $x\to+\infty$ 时，下列结论正确的是（　）。
 
 ;;;
 A. $f(x)-g(x)$ 是无穷小
@@ -62,7 +69,7 @@ A、B、C 均可举反例（无穷大相减/相加不一定仍为无穷大或无
 
 +++
 
-#### 选择 (5) 当 $x\to 0$ 时，$\dfrac{1}{x^2}\sin\dfrac{1}{x}$ 是（　）。
+#### 基础选择 (5) 当 $x\to 0$ 时，$\dfrac{1}{x^2}\sin\dfrac{1}{x}$ 是（　）。
 
 ;;;
 A. 无穷大
@@ -79,7 +86,7 @@ D. 无界但非无穷大
 
 +++
 
-#### 选择 (6) 已知 $\lim\limits_{x\to\infty}\left(\dfrac{x^2}{x+1}-ax-b\right)=0$，则（　）。
+#### 基础选择 (6) 已知 $\lim\limits_{x\to\infty}\left(\dfrac{x^2}{x+1}-ax-b\right)=0$，则（　）。
 
 ;;;
 A. $a=1,\ b=1$
@@ -94,7 +101,7 @@ $$\dfrac{x^2}{x+1}-ax-b=(1-a)x-(1+b)+\dfrac{1}{x+1}.$$
 
 +++
 
-#### 选择 (7) 设当 $x\to 0$ 时，$(x-\sin x)\tan x$ 是比 $\ln(1+x^n)$ 高阶的无穷小，而 $\ln(1+x^n)$ 是比 $x^2$ 高阶的无穷小，则 $n=$（　）。
+#### 基础选择 (7) 设当 $x\to 0$ 时，$(x-\sin x)\tan x$ 是比 $\ln(1+x^n)$ 高阶的无穷小，而 $\ln(1+x^n)$ 是比 $x^2$ 高阶的无穷小，则 $n=$（　）。
 
 ;;;
 A. $4$
@@ -109,7 +116,7 @@ $\ln(1+x^n)\sim x^n$。由题意 $4>n$ 且 $n>2$，故 $2<n<4$，取 $n=3$，选
 
 +++
 
-#### 选择 (8) 设 $f(x)=\ln^2 x$，$g(x)=x$，$h(x)=\mathrm{e}^{\frac{x}{2}}$（$x>1$），则当 $x$ 充分大时，（　）。
+#### 基础选择 (8) 设 $f(x)=\ln^2 x$，$g(x)=x$，$h(x)=\mathrm{e}^{\frac{x}{2}}$（$x>1$），则当 $x$ 充分大时，（　）。
 
 ;;;
 A. $f(x)<g(x)<h(x)$
@@ -124,7 +131,7 @@ D. $g(x)<f(x)<h(x)$
 
 +++
 
-#### 选择 (9) 设 $\lim a_n$ 与 $\lim b_n$ 均不存在，则下列选项正确的是（　）。
+#### 基础选择 (9) 设 $\lim a_n$ 与 $\lim b_n$ 均不存在，则下列选项正确的是（　）。
 
 ;;;
 A. 若 $\lim\limits_{n\to\infty}(a_n+b_n)$ 不存在，则 $\lim\limits_{n\to\infty}(a_n-b_n)$ 必不存在
@@ -141,7 +148,7 @@ A、B 可举反例（如 $a_n=(-1)^n,\ b_n=(-1)^n$ 使和不存在而差为 $0$�
 
 +++
 
-#### 选择 (10) 函数 $f(x)=\dfrac{2+\mathrm{e}^{\frac{1}{x}}}{1+\mathrm{e}^{\frac{2}{x}}}+\dfrac{\sin x}{|x|}$ 在 $x=0$ 处为（　）。
+#### 基础选择 (10) 函数 $f(x)=\dfrac{2+\mathrm{e}^{\frac{1}{x}}}{1+\mathrm{e}^{\frac{2}{x}}}+\dfrac{\sin x}{|x|}$ 在 $x=0$ 处为（　）。
 
 ;;;
 A. 可去间断点
@@ -158,7 +165,7 @@ D. 振荡间断点
 
 +++
 
-#### 填空 (1) 设 $f(x)=\begin{cases}1,&|x|\leqslant 1,\\[2pt]0,&|x|>1,\end{cases}$ 则 $f\{f[f(x)]\}=$ ______。
+#### 基础填空 (1) 设 $f(x)=\begin{cases}1,&|x|\leqslant 1,\\[2pt]0,&|x|>1,\end{cases}$ 则 $f\{f[f(x)]\}=$ ______。
 ***
 无论 $x$ 取何值，$f(x)\in\{0,1\}$，均有 $|f(x)|\leqslant 1$，故 $f[f(x)]=1$；再由 $|1|\leqslant 1$ 得 $f\{f[f(x)]\}=f(1)=1$。
 
@@ -166,7 +173,7 @@ $$f\{f[f(x)]\}=1.$$
 
 +++
 
-#### 填空 (2) 当 $x\to 0$ 时，$(1+ax^2)^{\frac{1}{3}}-1$ 与 $\cos x-1$ 是等价无穷小，则 $a=$ ______。
+#### 基础填空 (2) 当 $x\to 0$ 时，$(1+ax^2)^{\frac{1}{3}}-1$ 与 $\cos x-1$ 是等价无穷小，则 $a=$ ______。
 ***
 $(1+ax^2)^{\frac{1}{3}}-1\sim\dfrac{1}{3}ax^2$，$\cos x-1\sim-\dfrac{x^2}{2}$。
 
@@ -175,7 +182,7 @@ $$a=-\dfrac{3}{2}.$$
 
 +++
 
-#### 填空 (3) 设函数 $f(x)=\begin{cases}\dfrac{\sin 2x+\mathrm{e}^{2ax}-1}{x},&x\neq 0,\\[6pt]a,&x=0,\end{cases}$ 在 $x=0$ 处连续，则 $a=$ ______。
+#### 基础填空 (3) 设函数 $f(x)=\begin{cases}\dfrac{\sin 2x+\mathrm{e}^{2ax}-1}{x},&x\neq 0,\\[6pt]a,&x=0,\end{cases}$ 在 $x=0$ 处连续，则 $a=$ ______。
 ***
 $\lim\limits_{x\to 0}\dfrac{\sin 2x+\mathrm{e}^{2ax}-1}{x}$，由 $\sin 2x\sim 2x$、$\mathrm{e}^{2ax}-1\sim 2ax$ 得分子 $\sim(2+2a)x$，故极限 $=2+2a$。
 
@@ -184,7 +191,7 @@ $$a=-2.$$
 
 +++
 
-#### 填空 (4) 设 $a>0$，若 $\lim\limits_{x\to+\infty}x^{P}\left(a^{\frac{1}{x}}-a^{\frac{1}{x+1}}\right)$ 存在，则 $P$ 的取值范围为 ______。
+#### 基础填空 (4) 设 $a>0$，若 $\lim\limits_{x\to+\infty}x^{P}\left(a^{\frac{1}{x}}-a^{\frac{1}{x+1}}\right)$ 存在，则 $P$ 的取值范围为 ______。
 ***
 $a^{\frac{1}{x}}-a^{\frac{1}{x+1}}=\mathrm{e}^{\frac{\ln a}{x}}-\mathrm{e}^{\frac{\ln a}{x+1}}\sim\ln a\left(\dfrac{1}{x}-\dfrac{1}{x+1}\right)=\dfrac{\ln a}{x(x+1)}\sim\dfrac{\ln a}{x^2}$（$a\neq 1$）。
 
@@ -193,7 +200,7 @@ $$P\leqslant 2.$$
 
 +++
 
-#### 填空 (5) $\lim\limits_{x\to+\infty}\dfrac{x^3+x^2+1}{\mathrm{e}^x+x^3}(\sin x+\cos x)=$ ______。
+#### 基础填空 (5) $\lim\limits_{x\to+\infty}\dfrac{x^3+x^2+1}{\mathrm{e}^x+x^3}(\sin x+\cos x)=$ ______。
 ***
 分母中 $\mathrm{e}^x$ 起主导作用，故 $\dfrac{x^3+x^2+1}{\mathrm{e}^x+x^3}\to 0$（无穷小）；而 $\sin x+\cos x$ 有界。
 
@@ -202,7 +209,7 @@ $$=0.$$
 
 +++
 
-#### 填空 (6) $\lim\limits_{x\to 0}\dfrac{\mathrm{e}^{x^2}-\mathrm{e}^{2-2\cos x}}{\mathrm{e}^{x^4}-1}=$ ______。
+#### 基础填空 (6) $\lim\limits_{x\to 0}\dfrac{\mathrm{e}^{x^2}-\mathrm{e}^{2-2\cos x}}{\mathrm{e}^{x^4}-1}=$ ______。
 ***
 由 $\cos x=1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\cdots$，得 $2-2\cos x=x^2-\dfrac{x^4}{12}+\cdots$。
 
@@ -213,7 +220,7 @@ $$=\dfrac{1}{12}.$$
 
 +++
 
-#### 填空 (7) 设 $f(x)=a+bx+cx^2+dx^3-\tan x$，当 $x\to 0$ 时，$f(x)$ 是比 $x^3$ 高阶的无穷小，则 $a+b+c+d=$ ______。
+#### 基础填空 (7) 设 $f(x)=a+bx+cx^2+dx^3-\tan x$，当 $x\to 0$ 时，$f(x)$ 是比 $x^3$ 高阶的无穷小，则 $a+b+c+d=$ ______。
 ***
 $\tan x=x+\dfrac{x^3}{3}+\cdots$，故
 $$f(x)=a+(b-1)x+cx^2+\left(d-\dfrac{1}{3}\right)x^3+\cdots.$$
@@ -223,7 +230,7 @@ $$f(x)=a+(b-1)x+cx^2+\left(d-\dfrac{1}{3}\right)x^3+\cdots.$$
 
 +++
 
-#### （1）设 $f(x)$ 是定义在 $(-a,a)$ 内的函数，证明：$f(x)$ 可以表示为一个偶函数与一个奇函数之和。
+#### 基础解答 (1) 设 $f(x)$ 是定义在 $(-a,a)$ 内的函数，证明：$f(x)$ 可以表示为一个偶函数与一个奇函数之和。
 ***
 构造 $g(x)=\dfrac{f(x)+f(-x)}{2}$，$h(x)=\dfrac{f(x)-f(-x)}{2}$。由于 $(-a,a)$ 关于原点对称，$g,h$ 均在 $(-a,a)$ 内有定义。\
 $g(-x)=\dfrac{f(-x)+f(x)}{2}=g(x)$，故 $g(x)$ 为偶函数；\
@@ -232,7 +239,7 @@ $h(-x)=\dfrac{f(-x)-f(x)}{2}=-h(x)$，故 $h(x)$ 为奇函数。\
 
 +++
 
-#### （2）设函数 $f(x)$ 满足 $af(x)+bf\left(\dfrac{1}{x}\right)=\dfrac{c}{x}$，其中 $a,b,c$ 均为常数，且 $|a|\neq|b|$，求 $f(x)$ 的表达式，并证明 $f(x)$ 是奇函数。
+#### 基础解答 (2) 设函数 $f(x)$ 满足 $af(x)+bf\left(\dfrac{1}{x}\right)=\dfrac{c}{x}$，其中 $a,b,c$ 均为常数，且 $|a|\neq|b|$，求 $f(x)$ 的表达式，并证明 $f(x)$ 是奇函数。
 ***
 在 $af(x)+bf\left(\dfrac1x\right)=\dfrac{c}{x}$ 中以 $\dfrac1x$ 代 $x$，得 $af\left(\dfrac1x\right)+bf(x)=cx$。\
 将两式联立消去 $f\left(\dfrac1x\right)$：第一式 $\times a$ 减第二式 $\times b$，得 $(a^2-b^2)f(x)=\dfrac{ac}{x}-bcx$。\
@@ -241,7 +248,7 @@ $h(-x)=\dfrac{f(-x)-f(x)}{2}=-h(x)$，故 $h(x)$ 为奇函数。\
 
 +++
 
-#### （3）设函数 $f(x)$ 在区间 $(-a,a)$ 内有定义，其中 $a>0$，且对任意 $x_1,x_2\in(-a,a)$，有 $|f(x_1)-f(x_2)|\leqslant|x_1-x_2|$，证明：$F(x)=f(x)+x$ 在 $(-a,a)$ 内单调增加。
+#### 基础解答 (3) 设函数 $f(x)$ 在区间 $(-a,a)$ 内有定义，其中 $a>0$，且对任意 $x_1,x_2\in(-a,a)$，有 $|f(x_1)-f(x_2)|\leqslant|x_1-x_2|$，证明：$F(x)=f(x)+x$ 在 $(-a,a)$ 内单调增加。
 ***
 任取 $x_1,x_2\in(-a,a)$ 且 $x_1<x_2$。由条件 $|f(x_1)-f(x_2)|\leqslant|x_1-x_2|=x_2-x_1$，\
 故 $f(x_2)-f(x_1)\geqslant-(x_2-x_1)$。\
@@ -250,7 +257,7 @@ $h(-x)=\dfrac{f(-x)-f(x)}{2}=-h(x)$，故 $h(x)$ 为奇函数。\
 
 +++
 
-#### （4）设数列 $\{x_n\}$ 满足 $\lim\limits_{k\to\infty}x_{2k}=\lim\limits_{k\to\infty}x_{2k+1}=a$，证明：$\lim\limits_{n\to\infty}x_n=a$。
+#### 基础解答 (4) 设数列 $\{x_n\}$ 满足 $\lim\limits_{k\to\infty}x_{2k}=\lim\limits_{k\to\infty}x_{2k+1}=a$，证明：$\lim\limits_{n\to\infty}x_n=a$。
 ***
 $\forall\varepsilon>0$。由 $\lim\limits_{k\to\infty}x_{2k}=a$，$\exists K_1$，当 $k>K_1$ 时 $|x_{2k}-a|<\varepsilon$；\
 由 $\lim\limits_{k\to\infty}x_{2k+1}=a$，$\exists K_2$，当 $k>K_2$ 时 $|x_{2k+1}-a|<\varepsilon$。\
@@ -259,7 +266,7 @@ $\forall\varepsilon>0$。由 $\lim\limits_{k\to\infty}x_{2k}=a$，$\exists K_1$�
 
 +++
 
-#### （5）求下列极限：
+#### 基础解答 (5) 求下列极限：
 
 （Ⅰ）$\lim\limits_{x\to\infty}\dfrac{x^2-x\sin x}{x^2+x\sin\frac{1}{x}}$；\
 （Ⅱ）$\lim\limits_{x\to+\infty}\left(\dfrac{a^{\frac{1}{x}}+b^{\frac{1}{x}}+c^{\frac{1}{x}}}{3}\right)^x$（$a,b,c$ 为正数）；\
@@ -281,7 +288,7 @@ $\forall\varepsilon>0$。由 $\lim\limits_{k\to\infty}x_{2k}=a$，$\exists K_1$�
 
 +++
 
-#### （6）求下列极限：
+#### 基础解答 (6) 求下列极限：
 
 （Ⅰ）$\lim\limits_{n\to\infty}\left(\dfrac{1}{n^2+n+1}+\dfrac{2}{n^2+n+2}+\cdots+\dfrac{n}{n^2+n+n}\right)$；\
 （Ⅱ）$\lim\limits_{n\to\infty}\left[\sqrt{1+2+\cdots+n}-\sqrt{1+2+\cdots+(n-1)}\right]$；\
@@ -297,7 +304,7 @@ $\forall\varepsilon>0$。由 $\lim\limits_{k\to\infty}x_{2k}=a$，$\exists K_1$�
 
 +++
 
-#### （7）求 $f(x)=(1+x)^{\frac{x}{\tan\left(x-\frac{\pi}{4}\right)}}$ 在 $(0,2\pi)$ 内的间断点，并指出其类型。
+#### 基础解答 (7) 求 $f(x)=(1+x)^{\frac{x}{\tan\left(x-\frac{\pi}{4}\right)}}$ 在 $(0,2\pi)$ 内的间断点，并指出其类型。
 ***
 底 $1+x>1>0$ 恒成立，间断点由指数 $\dfrac{x}{\tan(x-\frac\pi4)}$ 决定，需考察 $\tan(x-\frac\pi4)=0$ 及其无定义之处。在 $(0,2\pi)$ 内：\
 $x=\frac\pi4,\ \frac{5\pi}4$ 处 $\tan(x-\frac\pi4)=0$，指数 $\to\pm\infty$；\
@@ -307,7 +314,7 @@ $x=\frac\pi4$：$x\to\frac\pi4^-$ 时指数 $\to-\infty$，$f\to0$；$x\to\frac\
 
 +++
 
-#### （8）讨论函数 $f(x)=\lim\limits_{n\to\infty}\dfrac{x^{n+2}-x^{-n}}{x^n+x^{-n}}$ 的连续性。
+#### 基础解答 (8) 讨论函数 $f(x)=\lim\limits_{n\to\infty}\dfrac{x^{n+2}-x^{-n}}{x^n+x^{-n}}$ 的连续性。
 ***
 按 $|x|$ 分类求此极限：\
 当 $|x|>1$：分子分母同除 $x^n$，$f=\dfrac{x^2-x^{-2n}}{1+x^{-2n}}\to x^2$（$x^{-2n}\to0$）；\
@@ -321,7 +328,7 @@ $x=-1$：左极限 $1$、右极限 $-1$、$f(-1)=0$，为**第一类（跳跃）
 
 +++
 
-#### （9）设 $f(x)$ 在 $[a,b]$ 上连续，且 $a<c<d<b$，证明：在 $(a,b)$ 内必存在一点 $\xi$，使得 $mf(c)+nf(d)=(m+n)f(\xi)$，其中 $m,n$ 为任意给定的自然数。
+#### 基础解答 (9) 设 $f(x)$ 在 $[a,b]$ 上连续，且 $a<c<d<b$，证明：在 $(a,b)$ 内必存在一点 $\xi$，使得 $mf(c)+nf(d)=(m+n)f(\xi)$，其中 $m,n$ 为任意给定的自然数。
 ***
 记 $\mu=\dfrac{mf(c)+nf(d)}{m+n}$。因 $m,n$ 为自然数（正数），$\mu$ 是 $f(c),f(d)$ 的加权平均，故 $\min\{f(c),f(d)\}\leqslant\mu\leqslant\max\{f(c),f(d)\}$。\
 $f(x)$ 在 $[c,d]$ 上连续，由介值定理，$\exists\xi\in[c,d]$ 使 $f(\xi)=\mu$，即 $mf(c)+nf(d)=(m+n)f(\xi)$。\
@@ -329,7 +336,7 @@ $f(x)$ 在 $[c,d]$ 上连续，由介值定理，$\exists\xi\in[c,d]$ 使 $f(\xi
 
 +++
 
-#### （10）设 $x_1=\sqrt{a}\,(a>0)$，$x_{n+1}=\sqrt{a+x_n}$，证明：$\lim\limits_{n\to\infty}x_n$ 存在，并求其值。
+#### 基础解答 (10) 设 $x_1=\sqrt{a}\,(a>0)$，$x_{n+1}=\sqrt{a+x_n}$，证明：$\lim\limits_{n\to\infty}x_n$ 存在，并求其值。
 ***
 **单调性**：$x_2=\sqrt{a+\sqrt a}>\sqrt a=x_1$；若 $x_n>x_{n-1}$，则 $x_{n+1}=\sqrt{a+x_n}>\sqrt{a+x_{n-1}}=x_n$，故 $\{x_n\}$ 单调增加。\
 **有界**：设 $L=\dfrac{1+\sqrt{1+4a}}2$（满足 $L^2=a+L$，且 $L>\sqrt a$）。$x_1=\sqrt a<L$；若 $x_n<L$，则 $x_{n+1}=\sqrt{a+x_n}<\sqrt{a+L}=\sqrt{L^2}=L$，故 $\{x_n\}$ 有上界 $L$。\
@@ -337,7 +344,7 @@ $f(x)$ 在 $[c,d]$ 上连续，由介值定理，$\exists\xi\in[c,d]$ 使 $f(\xi
 
 +++
 
-#### （11）设 $x_1=a\geqslant 0$，$y_1=b\geqslant 0$，$a\leqslant b$，$x_{n+1}=\sqrt{x_n y_n}$，$y_{n+1}=\dfrac{x_n+y_n}{2}$（$n=1,2,\cdots$），证明：$\lim\limits_{n\to\infty}x_n=\lim\limits_{n\to\infty}y_n$。
+#### 基础解答 (11) 设 $x_1=a\geqslant 0$，$y_1=b\geqslant 0$，$a\leqslant b$，$x_{n+1}=\sqrt{x_n y_n}$，$y_{n+1}=\dfrac{x_n+y_n}{2}$（$n=1,2,\cdots$），证明：$\lim\limits_{n\to\infty}x_n=\lim\limits_{n\to\infty}y_n$。
 ***
 由均值不等式，对 $x_n,y_n\geqslant0$ 有 $x_{n+1}=\sqrt{x_ny_n}\leqslant\dfrac{x_n+y_n}2=y_{n+1}$；又 $x_1=a\leqslant b=y_1$，故对一切 $n$ 有 $x_n\leqslant y_n$。\
 从而 $x_{n+1}=\sqrt{x_ny_n}\geqslant\sqrt{x_n\cdot x_n}=x_n$，$\{x_n\}$ 单调增加；$y_{n+1}=\dfrac{x_n+y_n}2\leqslant\dfrac{y_n+y_n}2=y_n$，$\{y_n\}$ 单调减少。\
@@ -346,7 +353,7 @@ $f(x)$ 在 $[c,d]$ 上连续，由介值定理，$\exists\xi\in[c,d]$ 使 $f(\xi
 
 +++
 
-#### 综合题·选择题 (1). $\lim\limits_{x\to\infty}\dfrac{e^{\sin\frac{1}{x}}-1}{\left(1+\frac{1}{x}\right)^k-\left(1+\frac{1}{x}\right)}=a\neq 0$ 成立的充要条件是（　）。
+#### 综合选择 (1) $\lim\limits_{x\to\infty}\dfrac{e^{\sin\frac{1}{x}}-1}{\left(1+\frac{1}{x}\right)^k-\left(1+\frac{1}{x}\right)}=a\neq 0$ 成立的充要条件是（　）。
 
 ;;;
 A. $k\neq 1$
@@ -363,7 +370,7 @@ D. 与 $k$ 无关
 
 +++
 
-#### 综合题·选择题 (2). 已知 $\lim\limits_{x\to 0}\dfrac{2\arctan x-\ln\frac{1+x}{1-x}}{x^{p}}=c\neq 0$，则（　）。
+#### 综合选择 (2) 已知 $\lim\limits_{x\to 0}\dfrac{2\arctan x-\ln\frac{1+x}{1-x}}{x^{p}}=c\neq 0$，则（　）。
 
 ;;;
 A. $p=3,\ c=-\dfrac{4}{3}$
@@ -384,7 +391,7 @@ $$\ln\frac{1+x}{1-x}=\ln(1+x)-\ln(1-x)=2x+\frac{2}{3}x^{3}+\cdots$$
 
 +++
 
-#### 综合题·选择题 (3). 设当 $x\to 0$ 时，$\alpha(x)=\tan x-\sin x$，$\beta(x)=\sqrt{1+x^{2}}-\sqrt{1-x^{2}}$，$\gamma(x)=\int_{0}^{1-\cos x}\sin t\,dt$ 都是无穷小，将它们关于 $x$ 的阶数从低到高排列，正确的顺序为（　）。
+#### 综合选择 (3) 设当 $x\to 0$ 时，$\alpha(x)=\tan x-\sin x$，$\beta(x)=\sqrt{1+x^{2}}-\sqrt{1-x^{2}}$，$\gamma(x)=\int_{0}^{1-\cos x}\sin t\,dt$ 都是无穷小，将它们关于 $x$ 的阶数从低到高排列，正确的顺序为（　）。
 
 ;;;
 A. $\alpha(x),\beta(x),\gamma(x)$
@@ -405,7 +412,7 @@ $\gamma(x)=1-\cos(1-\cos x)\sim\dfrac{(1-\cos x)^{2}}{2}\sim\dfrac{(x^{2}/2)^{2}
 
 +++
 
-#### 综合题·选择题 (4). 设 $y=y(x)$ 是方程 $y''+2y'+y=e^{3x}$ 的解，且满足 $y(0)=y'(0)=0$，则当 $x\to 0$ 时，与 $y(x)$ 为等价无穷小的是（　）。
+#### 综合选择 (4) 设 $y=y(x)$ 是方程 $y''+2y'+y=e^{3x}$ 的解，且满足 $y(0)=y'(0)=0$，则当 $x\to 0$ 时，与 $y(x)$ 为等价无穷小的是（　）。
 
 ;;;
 A. $\sin x^{2}$
@@ -424,7 +431,7 @@ D. $\ln\sqrt{1+x^{2}}$
 
 +++
 
-#### 综合题·选择题 (5). 设
+#### 综合选择 (5) 设
 
 $$F(x)=\begin{cases}\dfrac{f(x)}{x},&x\neq 0,\\[2mm] f(0),&x=0,\end{cases}$$
 
@@ -445,7 +452,7 @@ $\lim\limits_{x\to 0}F(x)=\lim\limits_{x\to 0}\dfrac{f(x)}{x}=\lim\limits_{x\to 
 
 +++
 
-#### 综合题·选择题 (6). 设
+#### 综合选择 (6) 设
 
 $$f(x)=\begin{cases}(x+1)\arctan\dfrac{1}{x^{2}-1},&x\neq\pm 1,\\[2mm] 0,&x=\pm 1,\end{cases}$$
 
@@ -464,7 +471,7 @@ D. 在 $x=-1$ 处连续，$x=1$ 处间断
 
 +++
 
-#### 综合题·选择题 (7). 下列结论中错误的是（　）。
+#### 综合选择 (7) 下列结论中错误的是（　）。
 
 ;;;
 A. 设 $\lim\limits_{n\to\infty}a_{n}=a>1$，则存在 $M>1$，当 $n$ 充分大时，有 $a_{n}>M$
@@ -483,7 +490,7 @@ $$a_{n}-\left(a-\frac{1}{n}\right)=-\frac{2}{n}+\frac{1}{n}=-\frac{1}{n}<0,$$
 
 +++
 
-#### 综合题·选择题 (8). 设 $\{x_{n}\}$ 与 $\{y_{n}\}$ 为两个数列，则下列说法正确的是（　）。
+#### 综合选择 (8) 设 $\{x_{n}\}$ 与 $\{y_{n}\}$ 为两个数列，则下列说法正确的是（　）。
 
 ;;;
 A. 若 $\{x_{n}\}$ 与 $\{y_{n}\}$ 无界，则 $\{x_{n}+y_{n}\}$ 无界
@@ -502,7 +509,7 @@ D 正确：$|x_{n}|\to\infty,\ |y_{n}|\to\infty\Rightarrow|x_{n}y_{n}|\to\infty$
 
 +++
 
-#### 综合题·选择题 (9). 下列极限存在的是（　）。
+#### 综合选择 (9) 下列极限存在的是（　）。
 
 ;;;
 A. $\lim\limits_{x\to 1}\dfrac{1}{1+2^{\frac{1}{1-x}}}$
@@ -521,7 +528,7 @@ D 存在：记 $S_{n}=\sum_{k=1}^{n}\dfrac{1}{k^{2}}$，有 $1\leqslant S_{n}<\d
 
 +++
 
-#### 综合题·选择题 (10). 设 $f(x)$ 在 $(-\infty,+\infty)$ 内为连续的奇函数，$a$ 为常数，则必为偶函数的是（　）。
+#### 综合选择 (10) 设 $f(x)$ 在 $(-\infty,+\infty)$ 内为连续的奇函数，$a$ 为常数，则必为偶函数的是（　）。
 
 ;;;
 A. $\displaystyle\int_{0}^{x}du\int_{a}^{u}t f(t)\,dt$
@@ -538,7 +545,7 @@ D：$\displaystyle\int_{a}^{x}\psi(u)\,du=\int_{0}^{x}\psi(u)\,du-\int_{0}^{a}\p
 
 +++
 
-#### 综合题·选择题 (11). 设 $f(x)=\lim\limits_{t\to+\infty}\dfrac{x+2^{tx}}{1+2^{tx}}$，则 $F(x)=\int_{-1}^{x}f(t)\,dt$ 在 $x=0$ 处（　）。
+#### 综合选择 (11) 设 $f(x)=\lim\limits_{t\to+\infty}\dfrac{x+2^{tx}}{1+2^{tx}}$，则 $F(x)=\int_{-1}^{x}f(t)\,dt$ 在 $x=0$ 处（　）。
 
 ;;;
 A. 可导
@@ -557,7 +564,7 @@ $f$ 在 $x=0$ 处有跳跃间断（左极限 $0$，右极限 $1$），但有界�
 
 +++
 
-#### 综合题·选择题 (12). 设
+#### 综合选择 (12) 设
 
 $$f(x)=\begin{cases}\dfrac{(x^{3}-1)\sin x}{|x|(1+x^{2})},&x\neq 0,\\[2mm] 0,&x=0,\end{cases}\qquad x\in(-\infty,+\infty),$$
 
@@ -578,7 +585,7 @@ D. 对任意 $X>0$，当 $|x|\leqslant X$ 时 $f(x)$ 有界，但在 $(-\infty,+
 
 +++
 
-#### 综合题·填空题 (1). 当 $x\to 0$ 时，$f(x)=3x-4\sin x+\sin x\cos x$ 是关于 $x$ 的 ______ 阶无穷小。
+#### 综合填空 (1) 当 $x\to 0$ 时，$f(x)=3x-4\sin x+\sin x\cos x$ 是关于 $x$ 的 ______ 阶无穷小。
 
 ***
 **答案：$5$ 阶。**
@@ -595,7 +602,7 @@ $$f(x)=(3-4+1)x+\left(\tfrac{4}{6}-\tfrac{2}{3}\right)x^{3}+\left(-\tfrac{4}{120
 
 +++
 
-#### 综合题·填空题 (2). $\lim\limits_{x\to 0}\dfrac{(\cos x-e^{x^{2}})\sin x^{2}}{\frac{x^{2}}{2}+1-\sqrt{1+x^{2}}}=$ ______。
+#### 综合填空 (2) $\lim\limits_{x\to 0}\dfrac{(\cos x-e^{x^{2}})\sin x^{2}}{\frac{x^{2}}{2}+1-\sqrt{1+x^{2}}}=$ ______。
 
 ***
 **答案：$-12$。**
@@ -608,7 +615,7 @@ $$f(x)=(3-4+1)x+\left(\tfrac{4}{6}-\tfrac{2}{3}\right)x^{3}+\left(-\tfrac{4}{120
 
 +++
 
-#### 综合题·填空题 (3). 设 $f(x)$ 是连续函数，$\lim\limits_{x\to 0}\dfrac{f(x)}{1-\cos x}=-1$，当 $x\to 0$ 时，$\int_{0}^{\sin^{2}x}f(t)\,dt$ 是关于 $x$ 的 $n$ 阶无穷小，则 $n=$ ______。
+#### 综合填空 (3) 设 $f(x)$ 是连续函数，$\lim\limits_{x\to 0}\dfrac{f(x)}{1-\cos x}=-1$，当 $x\to 0$ 时，$\int_{0}^{\sin^{2}x}f(t)\,dt$ 是关于 $x$ 的 $n$ 阶无穷小，则 $n=$ ______。
 
 ***
 **答案：$n=6$。**
@@ -623,7 +630,7 @@ $$\int_{0}^{\sin^{2}x}f(t)\,dt\sim\int_{0}^{\sin^{2}x}\left(-\frac{t^{2}}{2}\rig
 
 +++
 
-#### 综合题·填空题 (4). 设 $a_{n}=\dfrac{3}{2}\displaystyle\int_{0}^{\frac{n}{n+1}}x^{n-1}\sqrt{1+x^{n}}\,dx$，则 $\lim\limits_{n\to\infty}n a_{n}=$ ______。
+#### 综合填空 (4) 设 $a_{n}=\dfrac{3}{2}\displaystyle\int_{0}^{\frac{n}{n+1}}x^{n-1}\sqrt{1+x^{n}}\,dx$，则 $\lim\limits_{n\to\infty}n a_{n}=$ ______。
 
 ***
 **答案：$\left(1+e^{-1}\right)^{3/2}-1$。**
@@ -638,7 +645,7 @@ $$a_{n}=\frac{3}{2}\cdot\frac{1}{n}\int_{0}^{(n/(n+1))^{n}}\sqrt{1+u}\,du=\frac{
 
 +++
 
-#### 综合题·填空题 (5). 设 $k\neq\dfrac{1}{2}$，则 $\lim\limits_{n\to\infty}\ln\left[\dfrac{n-2nk+1}{n(1-2k)}\right]^{n}=$ ______。
+#### 综合填空 (5) 设 $k\neq\dfrac{1}{2}$，则 $\lim\limits_{n\to\infty}\ln\left[\dfrac{n-2nk+1}{n(1-2k)}\right]^{n}=$ ______。
 
 ***
 **答案：$\dfrac{1}{1-2k}$。**
@@ -651,7 +658,7 @@ $$a_{n}=\frac{3}{2}\cdot\frac{1}{n}\int_{0}^{(n/(n+1))^{n}}\sqrt{1+u}\,du=\frac{
 
 +++
 
-#### 综合题·填空题 (6). 设 $0<a_{1}<a_{2}$，则 $\lim\limits_{n\to\infty}\left(a_{1}^{-n}+a_{2}^{-n}\right)^{\frac{1}{n}}=$ ______。
+#### 综合填空 (6) 设 $0<a_{1}<a_{2}$，则 $\lim\limits_{n\to\infty}\left(a_{1}^{-n}+a_{2}^{-n}\right)^{\frac{1}{n}}=$ ______。
 
 ***
 **答案：$\dfrac{1}{a_{1}}$。**
@@ -662,7 +669,7 @@ $$\lim\limits_{n\to\infty}\left(a_{1}^{-n}+a_{2}^{-n}\right)^{\frac{1}{n}}=\max\
 
 +++
 
-#### 综合题·填空题 (7). 设 $\lim\limits_{x\to\infty}\left(\sqrt[3]{1-x^{6}}-ax^{2}-b\right)=0$，则 $a=$ ______，$b=$ ______。
+#### 综合填空 (7) 设 $\lim\limits_{x\to\infty}\left(\sqrt[3]{1-x^{6}}-ax^{2}-b\right)=0$，则 $a=$ ______，$b=$ ______。
 
 ***
 **答案：$a=-1$，$b=0$。**
@@ -675,7 +682,7 @@ $$\sqrt[3]{1-x^{6}}=\sqrt[3]{-x^{6}\left(1-\tfrac{1}{x^{6}}\right)}=-x^{2}\left(
 
 +++
 
-#### 综合题·填空题 (8). 设 $\lim\limits_{x\to 0}\left\{a[x]+\dfrac{\ln(1+e^{\frac{2}{x}})}{\ln(1+e^{\frac{1}{x}})}\right\}=b$，其中 $[x]$ 表示不超过 $x$ 的最大整数，则 $a=$ ______，$b=$ ______。
+#### 综合填空 (8) 设 $\lim\limits_{x\to 0}\left\{a[x]+\dfrac{\ln(1+e^{\frac{2}{x}})}{\ln(1+e^{\frac{1}{x}})}\right\}=b$，其中 $[x]$ 表示不超过 $x$ 的最大整数，则 $a=$ ______，$b=$ ______。
 
 ***
 **答案：$a=-2$，$b=2$。**
@@ -688,7 +695,7 @@ $$\sqrt[3]{1-x^{6}}=\sqrt[3]{-x^{6}\left(1-\tfrac{1}{x^{6}}\right)}=-x^{2}\left(
 
 +++
 
-#### 综合题·填空题 (9). 已知连续函数 $y=f(x)$ 关于点 $(a,0)\,(a\neq 0)$ 对称，则对常数 $c$，$I=\displaystyle\int_{-c}^{c}f(a-x)\,dx=$ ______。
+#### 综合填空 (9) 已知连续函数 $y=f(x)$ 关于点 $(a,0)\,(a\neq 0)$ 对称，则对常数 $c$，$I=\displaystyle\int_{-c}^{c}f(a-x)\,dx=$ ______。
 
 ***
 **答案：$I=0$。**
@@ -705,7 +712,7 @@ $$2I=\int_{-c}^{c}\big[f(a-x)+f(a+x)\big]\,dx=\int_{-c}^{c}0\,dx=0,$$
 
 +++
 
-#### (1) 设数列 $\{a_n\}$ 满足 $\lim\limits_{n\to\infty}\dfrac{a_{n+1}}{a_n}=q$，且 $|q|<1$，证明：$\lim\limits_{n\to\infty}a_n=0$。
+#### 综合解答 (1) 设数列 $\{a_n\}$ 满足 $\lim\limits_{n\to\infty}\dfrac{a_{n+1}}{a_n}=q$，且 $|q|<1$，证明：$\lim\limits_{n\to\infty}a_n=0$。
 ***
 证明：取 $r$ 满足 $|q|<r<1$。由 $\lim\limits_{n\to\infty}\left|\dfrac{a_{n+1}}{a_n}\right|=|q|<r$，存在 $N$，使 $n\geqslant N$ 时 $\left|\dfrac{a_{n+1}}{a_n}\right|<r$，即 $|a_{n+1}|<r\,|a_n|$。 \
 于是 $n>N$ 时 $|a_n|<r^{\,n-N}|a_N|=\dfrac{|a_N|}{r^{N}}\,r^{n}$。 \
@@ -713,14 +720,14 @@ $$2I=\int_{-c}^{c}\big[f(a-x)+f(a+x)\big]\,dx=\int_{-c}^{c}0\,dx=0,$$
 
 +++
 
-#### (2) 设 $a_k=2^{\frac{1}{2^k}}$，$u_n=a_1a_2\cdots a_n$（$n=1,2,\cdots$），求 $\lim\limits_{n\to\infty}u_n$。
+#### 综合解答 (2) 设 $a_k=2^{\frac{1}{2^k}}$，$u_n=a_1a_2\cdots a_n$（$n=1,2,\cdots$），求 $\lim\limits_{n\to\infty}u_n$。
 ***
 解：$u_n=\prod_{k=1}^{n}2^{1/2^{k}}=2^{\sum_{k=1}^{n}1/2^{k}}=2^{\,1-1/2^{n}}$。 \
 当 $n\to\infty$ 时指数 $1-\dfrac{1}{2^{n}}\to1$，故 **$\lim\limits_{n\to\infty}u_n=2$**。
 
 +++
 
-#### (3) 设数列 $x_n=(1+a)^n+(1-a)^n$，证明：
+#### 综合解答 (3) 设数列 $x_n=(1+a)^n+(1-a)^n$，证明：
 
 $$\lim_{n\to\infty}\frac{x_{n+1}}{x_n}=\begin{cases}1+|a|, & a\neq 0,\\[4pt] 1, & a=0.\end{cases}$$
 ***
@@ -732,7 +739,7 @@ $\dfrac{x_{n+1}}{x_n}=\dfrac{\beta^{n+1}+\gamma^{n+1}}{\beta^{n}+\gamma^{n}}=\be
 
 +++
 
-#### (4) 证明：$\lim\limits_{n\to\infty}\sqrt[n]{a_1^{\,n}+a_2^{\,n}+\cdots+a_k^{\,n}}=\max\{a_1,a_2,\cdots,a_k\}$（$a_i>0$，$i=1,2,\cdots,k$）。
+#### 综合解答 (4) 证明：$\lim\limits_{n\to\infty}\sqrt[n]{a_1^{\,n}+a_2^{\,n}+\cdots+a_k^{\,n}}=\max\{a_1,a_2,\cdots,a_k\}$（$a_i>0$，$i=1,2,\cdots,k$）。
 ***
 证明：记 $M=\max\{a_1,\dots,a_k\}>0$，则 \
 $M^{n}\leqslant a_1^{n}+\cdots+a_k^{n}\leqslant kM^{n}$， \
@@ -741,7 +748,7 @@ $M^{n}\leqslant a_1^{n}+\cdots+a_k^{n}\leqslant kM^{n}$， \
 
 +++
 
-#### (5)（Ⅰ）设 $x_1=1$，$x_2=2$，$x_{n+2}=\dfrac{1}{2}(3x_{n+1}-x_n)$（$n=1,2,\cdots$），求 $\lim\limits_{n\to\infty}x_n$；
+#### 综合解答 (5)（Ⅰ）设 $x_1=1$，$x_2=2$，$x_{n+2}=\dfrac{1}{2}(3x_{n+1}-x_n)$（$n=1,2,\cdots$），求 $\lim\limits_{n\to\infty}x_n$；
 
 （Ⅱ）设 $x_1=1$，$x_2=2$，$x_{n+2}=\dfrac{1}{2}(x_n+x_{n+1})$，求 $\lim\limits_{n\to\infty}x_n$。
 ***
@@ -752,7 +759,7 @@ $M^{n}\leqslant a_1^{n}+\cdots+a_k^{n}\leqslant kM^{n}$， \
 
 +++
 
-#### (6) 设 $f_n(x)=1-(1-\cos x)^n$（$n=1,2,\cdots$）。
+#### 综合解答 (6) 设 $f_n(x)=1-(1-\cos x)^n$（$n=1,2,\cdots$）。
 
 （Ⅰ）证明：方程 $f_n(x)=\dfrac{1}{2}$ 在 $\left(0,\dfrac{\pi}{2}\right)$ 内有且仅有一个实根 $x_n$；
 
@@ -766,7 +773,7 @@ $M^{n}\leqslant a_1^{n}+\cdots+a_k^{n}\leqslant kM^{n}$， \
 
 +++
 
-#### (7)（Ⅰ）证明：方程 $x=1+2\ln x$ 在 $(\mathrm{e},+\infty)$ 内有唯一实根 $\xi$；
+#### 综合解答 (7)（Ⅰ）证明：方程 $x=1+2\ln x$ 在 $(\mathrm{e},+\infty)$ 内有唯一实根 $\xi$；
 
 （Ⅱ）取 $x_0\in(\mathrm{e},\xi)$，令 $x_n=1+2\ln x_{n-1}$（$n=1,2,\cdots$），证明：$\lim\limits_{n\to\infty}x_n=\xi$。
 ***
@@ -778,7 +785,7 @@ $g(\mathrm e)=\mathrm e-3<0$，$g(+\infty)=+\infty$，故 **在 $(\mathrm e,+\in
 
 +++
 
-#### (8) 设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$，证明：
+#### 综合解答 (8) 设 $f(x)$ 在 $[0,1]$ 上连续，且 $f(0)=f(1)$，证明：
 
 （Ⅰ）至少存在一点 $\xi\in(0,1)$，使得 $f(\xi)=f\left(\xi+\dfrac{1}{2}\right)$；
 
@@ -793,7 +800,7 @@ $g(0)=f(0)-f\!\left(\tfrac12\right)$，$g\!\left(\tfrac12\right)=f\!\left(\tfrac
 
 +++
 
-#### (9) 证明：$\lim\limits_{n\to\infty}\left[\sin\left(\pi\sqrt{n^2+1}\right)\cdot\sin\left(\pi\sqrt{n^2+n}\right)\right]=0$。
+#### 综合解答 (9) 证明：$\lim\limits_{n\to\infty}\left[\sin\left(\pi\sqrt{n^2+1}\right)\cdot\sin\left(\pi\sqrt{n^2+n}\right)\right]=0$。
 ***
 证明：$\sqrt{n^{2}+1}-n=\dfrac{1}{\sqrt{n^{2}+1}+n}\to0$。 \
 $\sin\!\left(\pi\sqrt{n^{2}+1}\right)=\sin\!\left(\pi n+\pi(\sqrt{n^{2}+1}-n)\right)=(-1)^{n}\sin\!\left(\pi(\sqrt{n^{2}+1}-n)\right)\to0$。 \
@@ -801,7 +808,7 @@ $\sin\!\left(\pi\sqrt{n^{2}+1}\right)=\sin\!\left(\pi n+\pi(\sqrt{n^{2}+1}-n)\ri
 
 +++
 
-#### (10) 计算极限 $\lim\limits_{x\to 0}\dfrac{\displaystyle\int_0^x\left[(3+2\tan t)^t-3^t\right]\mathrm{d}t}{\mathrm{e}^{3x^3}-1}$。
+#### 综合解答 (10) 计算极限 $\lim\limits_{x\to 0}\dfrac{\displaystyle\int_0^x\left[(3+2\tan t)^t-3^t\right]\mathrm{d}t}{\mathrm{e}^{3x^3}-1}$。
 ***
 解：分母 $\mathrm e^{3x^{3}}-1\sim3x^{3}$。由洛必达法则，原式 $=\lim\limits_{x\to0}\dfrac{(3+2\tan x)^{x}-3^{x}}{9x^{2}\mathrm e^{3x^{3}}}$。 \
 而 $(3+2\tan x)^{x}-3^{x}=3^{x}\left[\left(1+\tfrac{2\tan x}{3}\right)^{x}-1\right]$，其中指数 $x\ln\!\left(1+\tfrac{2\tan x}{3}\right)\sim x\cdot\tfrac{2x}{3}=\tfrac{2x^{2}}{3}$。 \
@@ -809,7 +816,7 @@ $\sin\!\left(\pi\sqrt{n^{2}+1}\right)=\sin\!\left(\pi n+\pi(\sqrt{n^{2}+1}-n)\ri
 
 +++
 
-#### (11) 设 $0<x_1<\pi$，$x_{n+1}=\sin x_n$。
+#### 综合解答 (11) 设 $0<x_1<\pi$，$x_{n+1}=\sin x_n$。
 
 （Ⅰ）证明：$\lim\limits_{n\to\infty}x_n$ 存在，并求值；
 
@@ -822,7 +829,7 @@ $\ln\left(\dfrac{\sin t}{t}\right)^{1/t^{2}}=\dfrac{1}{t^{2}}\ln\!\left(1-\tfrac
 
 +++
 
-#### (12) 设 $\dfrac{1}{n+1}<\ln\left(1+\dfrac{1}{n}\right)<\dfrac{1}{n}$，证明：极限 $\lim\limits_{n\to\infty}\left(1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}-\ln n\right)$ 存在。
+#### 综合解答 (12) 设 $\dfrac{1}{n+1}<\ln\left(1+\dfrac{1}{n}\right)<\dfrac{1}{n}$，证明：极限 $\lim\limits_{n\to\infty}\left(1+\dfrac{1}{2}+\cdots+\dfrac{1}{n}-\ln n\right)$ 存在。
 ***
 证明：记 $a_n=\sum_{k=1}^{n}\tfrac1k-\ln n$。 \
 $a_{n+1}-a_n=\dfrac{1}{n+1}-\ln\!\left(1+\tfrac1n\right)<0$（因 $\ln(1+\tfrac1n)>\tfrac{1}{n+1}$），故 $\{a_n\}$ 单调递减。 \
@@ -831,7 +838,7 @@ $a_{n+1}-a_n=\dfrac{1}{n+1}-\ln\!\left(1+\tfrac1n\right)<0$（因 $\ln(1+\tfrac1
 
 +++
 
-#### (13) 设 $x_1>0$，数列 $\{x_n\}$ 满足 $x_{n+1}=\ln(\mathrm{e}^{x_n}-1)-\ln x_n$，证明：$\lim\limits_{n\to\infty}x_n$ 存在，并求值。
+#### 综合解答 (13) 设 $x_1>0$，数列 $\{x_n\}$ 满足 $x_{n+1}=\ln(\mathrm{e}^{x_n}-1)-\ln x_n$，证明：$\lim\limits_{n\to\infty}x_n$ 存在，并求值。
 ***
 证明：$x_{n+1}=\ln\dfrac{\mathrm e^{x_n}-1}{x_n}$。因 $x>0$ 时 $\dfrac{\mathrm e^{x}-1}{x}>1$，故 $x_{n+1}>0$，数列恒正。 \
 令 $\phi(x)=\mathrm e^{x}(1-x)$，$\phi'(x)=-x\mathrm e^{x}<0\ (x>0)$，故 $\phi(x)<\phi(0)=1$，即 $\mathrm e^{x}-1<x\mathrm e^{x}$。 \
@@ -840,7 +847,7 @@ $a_{n+1}-a_n=\dfrac{1}{n+1}-\ln\!\left(1+\tfrac1n\right)<0$（因 $\ln(1+\tfrac1
 
 +++
 
-#### (14) 求下列极限：
+#### 综合解答 (14) 求下列极限：
 
 （Ⅰ）当 $|x|<1$ 时，求 $\lim\limits_{n\to\infty}(1+x)(1+x^2)(1+x^4)\cdots(1+x^{2^n})$；
 
@@ -857,7 +864,7 @@ $|x|<1$ 时 $x^{2^{n+1}}\to0$，故 **原极限 $=\dfrac{1}{1-x}$**。 \
 
 +++
 
-#### (15) 求下列极限：
+#### 综合解答 (15) 求下列极限：
 
 （Ⅰ）设 $\lim\limits_{x\to 0}\dfrac{\ln\left[1+\dfrac{f(x)}{\sin x}\right]}{a^x-1}=\dfrac{1}{2}$（$a>0$，$a\neq 1$），求 $\lim\limits_{x\to 0}\dfrac{f(x)}{x^2}$；
 
@@ -871,7 +878,7 @@ $f'(2a)=-2a(2a\alpha+\beta)=1,\ f'(4a)=2a(4a\alpha+\beta)=1$，解得 $\alpha=\d
 
 +++
 
-#### (16) 设 $f(x)$ 在 $(a,b)$ 内连续，且 $\lim\limits_{x\to a^{+}}f(x)=-\infty$，$\lim\limits_{x\to b^{-}}f(x)=-\infty$，证明：$f(x)$ 在 $(a,b)$ 内有最大值。
+#### 综合解答 (16) 设 $f(x)$ 在 $(a,b)$ 内连续，且 $\lim\limits_{x\to a^{+}}f(x)=-\infty$，$\lim\limits_{x\to b^{-}}f(x)=-\infty$，证明：$f(x)$ 在 $(a,b)$ 内有最大值。
 ***
 证明：任取 $x_0\in(a,b)$，记 $M=f(x_0)$。 \
 由 $\lim\limits_{x\to a^{+}}f=-\infty$，存在 $c\in(a,x_0)$，使 $x\in(a,c]$ 时 $f(x)<M$；由 $\lim\limits_{x\to b^{-}}f=-\infty$，存在 $d\in(x_0,b)$，使 $x\in[d,b)$ 时 $f(x)<M$。 \
@@ -880,7 +887,7 @@ $f$ 在闭区间 $[c,d]$ 上连续，故取得最大值 $f(\xi)$，且 $f(\xi)\g
 
 +++
 
-#### (1) 设 $f(x)$ 在 $[a,b]$ 上可导，且 $|f'(x)|<1$，当 $x\in[a,b]$ 时，有 $a<f(x)<b$，$F(x)=\dfrac{1}{2}[x+f(x)]$，证明：
+#### 拓展解答 (1) 设 $f(x)$ 在 $[a,b]$ 上可导，且 $|f'(x)|<1$，当 $x\in[a,b]$ 时，有 $a<f(x)<b$，$F(x)=\dfrac{1}{2}[x+f(x)]$，证明：
 
 （Ⅰ）存在 $x^*\in(a,b)$，使得 $F(x^*)=x^*$；\
 （Ⅱ）对 $x_0\in[a,b]$，数列 $\{x_n\}$ 满足 $x_{n+1}=F(x_n)\,(n=0,1,2,\cdots)$，有 $\lim\limits_{n\to\infty}x_n=x^*$.
@@ -916,7 +923,7 @@ $$x<F(x)<x^*\quad(x<x^*).$$
 
 +++
 
-#### (2)（Ⅰ）设 $f(x)$ 是 $[0,+\infty)$ 上单调减少且非负的连续函数．证明：
+#### 拓展解答 (2)（Ⅰ）设 $f(x)$ 是 $[0,+\infty)$ 上单调减少且非负的连续函数．证明：
 
 $$f(k+1)\leqslant \int_k^{k+1} f(x)\,\mathrm{d}x \leqslant f(k)\quad(k=1,2,\cdots);$$
 
