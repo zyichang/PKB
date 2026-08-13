@@ -368,9 +368,9 @@ $$A(x)=\frac{1}{2}\cdot\frac{\left(x^2+\dfrac{1}{4}\right)^2}{2x}-\int_0^{\frac{
 
 +++
 
-#### 基础解答 (10) 设 $\overparen{OA}$ 是连接 $O(0,0)$ 和 $A(1,1)$ 的一段向上凸的曲线弧，$P(x,y)$ 为 $\overparen{OA}$ 上任一点，曲线弧 $\overparen{OP}$ 与有向线段 $\overrightarrow{OP}$ 所围图形的面积为 $x^2$，求曲线弧 $\overparen{OA}$ 的方程.
+#### 基础解答 (10) 设 $\overgroup{OA}$ 是连接 $O(0,0)$ 和 $A(1,1)$ 的一段向上凸的曲线弧，$P(x,y)$ 为 $\overgroup{OA}$ 上任一点，曲线弧 $\overgroup{OP}$ 与有向线段 $\overrightarrow{OP}$ 所围图形的面积为 $x^2$，求曲线弧 $\overgroup{OA}$ 的方程.
 ***
-**解** 设曲线弧 $\overparen{OA}$ 的方程为 $y=y(x)$，则 $\overparen{OP}$ 与 $\overrightarrow{OP}$ 所围面积为
+**解** 设曲线弧 $\overgroup{OA}$ 的方程为 $y=y(x)$，则 $\overgroup{OP}$ 与 $\overrightarrow{OP}$ 所围面积为
 $$\int_0^x\left[y(t)-\frac{y}{x}t\right]\mathrm{d}t=\int_0^x y(t)\mathrm{d}t-\frac{1}{2}xy.$$
 依题意，$\displaystyle\int_0^x y(t)\mathrm{d}t-\frac{1}{2}xy=x^2$（$x>0$），两边同时对 $x$ 求导，得 $y-\dfrac{1}{2}y-\dfrac{1}{2}xy'=2x$，即 $y'-\dfrac{1}{x}y=-4$，为一阶线性微分方程，其通解为 $y=x(\ln x^{-4}+C)=x(C-4\ln x)$.
 

@@ -78,7 +78,7 @@ $$=\sqrt{3}\int_0^{2\pi}\mathrm{d}\theta\int_0^1 (4-r\cos\theta-r\sin\theta)r\,\
 ***
 $\dfrac{2+\sqrt{2}}{2}R^2$，$\dfrac{3\pi+2}{8}R^2$．
 
-弧 $\overparen{AB}$ 是上半圆周上从第二象限的点 $A$ 经最高点 $C(0,R)$ 到 $x$ 轴上的点 $B(R,0)$ 的一段弧．取 $x$ 为参数，则弧 $\overparen{AB}$ 的方程为 $\begin{cases}x=x,\\ y=\sqrt{R^2-x^2}\end{cases}\left(-\dfrac{R}{\sqrt{2}}\leqslant x\leqslant R\right)$．
+弧 $\overgroup{AB}$ 是上半圆周上从第二象限的点 $A$ 经最高点 $C(0,R)$ 到 $x$ 轴上的点 $B(R,0)$ 的一段弧．取 $x$ 为参数，则弧 $\overgroup{AB}$ 的方程为 $\begin{cases}x=x,\\ y=\sqrt{R^2-x^2}\end{cases}\left(-\dfrac{R}{\sqrt{2}}\leqslant x\leqslant R\right)$．
 
 $$\mathrm{d}s=\sqrt{1+y'^2}\,\mathrm{d}x=\frac{R}{\sqrt{R^2-x^2}}\,\mathrm{d}x,$$
 
@@ -90,7 +90,7 @@ $$\int_L y\,\mathrm{d}x=\int_{-\frac{R}{\sqrt{2}}}^{R}\sqrt{R^2-x^2}\,\mathrm{d}
 
 $$=R^2\int_0^{\frac{3\pi}{4}}\frac{1-\cos 2t}{2}\,\mathrm{d}t=\left(\frac{3\pi}{8}+\frac{1}{4}\right)R^2=\frac{3\pi+2}{8}R^2.$$
 
-【注】本题若取 $y$ 为参数，由图知，曲线上的点与 $y$ 不是一一对应的，则应将曲线 $L$ 分为 $\overparen{AC}$ 和 $\overparen{CB}$ 两段分别积分．
+【注】本题若取 $y$ 为参数，由图知，曲线上的点与 $y$ 不是一一对应的，则应将曲线 $L$ 分为 $\overgroup{AC}$ 和 $\overgroup{CB}$ 两段分别积分．
 
 +++
 
@@ -319,9 +319,9 @@ $$W=\int_0^1\left[\left(2\cdot\frac{\pi}{2}\cdot y^2\cdot y^3-y^2\cos\frac{\pi}{
 
 #### 基础解答 (9) 计算 $I=\int_L \dfrac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}$，其中 $L$ 是从点 $A(1,1)$ 沿直线到点 $B(-1,0)$，再沿曲线 $y=x^2-1$ 到点 $C(1,0)$．
 ***
-**解法 1** 因为 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}=\dfrac{y^2-x^2}{(x^2+y^2)^2}$，所以在不含点 $(0,0)$ 的区域内，积分与路径无关．取折线路径 $A(1,1)\to D(-1,1)\to B(-1,0)$，再由 $B$ 沿上半单位圆 $\overparen{BEC}$（经 $E(0,-1)$ 的下半圆弧）到 $C$，即
+**解法 1** 因为 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}=\dfrac{y^2-x^2}{(x^2+y^2)^2}$，所以在不含点 $(0,0)$ 的区域内，积分与路径无关．取折线路径 $A(1,1)\to D(-1,1)\to B(-1,0)$，再由 $B$ 沿上半单位圆 $\overgroup{BEC}$（经 $E(0,-1)$ 的下半圆弧）到 $C$，即
 
-$$\overline{AD}:\begin{cases}y=1,\\ x=x,\end{cases}\quad \overline{DB}:\begin{cases}x=-1,\\ y=y,\end{cases}\quad \overparen{BEC}:\begin{cases}x=\cos t,\\ y=\sin t,\end{cases}$$
+$$\overline{AD}:\begin{cases}y=1,\\ x=x,\end{cases}\quad \overline{DB}:\begin{cases}x=-1,\\ y=y,\end{cases}\quad \overgroup{BEC}:\begin{cases}x=\cos t,\\ y=\sin t,\end{cases}$$
 
 故
 
@@ -331,15 +331,15 @@ $$=-\left(-\frac{\pi}{4}-\frac{\pi}{4}\right)-\left(0-\frac{\pi}{4}\right)+(2\pi
 
 **解法 2** 用格林公式．连接 $\overline{CA}:\begin{cases}x=1,\\ y=y,\end{cases}$ 取小圆 $l:\begin{cases}x=\delta\cos t,\\ y=\delta\sin t\end{cases}$（$\delta$ 充分小）取顺时针方向，则
 
-$$I=\int_L \frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}=\oint_{\overparen{ABECA}}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}-\int_{\overline{CA}}-\oint_{l_{\text{顺}}},$$
+$$I=\int_L \frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}=\oint_{\overgroup{ABECA}}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}-\int_{\overline{CA}}-\oint_{l_{\text{顺}}},$$
 
-$$\oint_{\overparen{ABECA}}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm{d}x\mathrm{d}y=0,$$
+$$\oint_{\overgroup{ABECA}}\frac{x\,\mathrm{d}y-y\,\mathrm{d}x}{x^2+y^2}=\iint_D\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm{d}x\mathrm{d}y=0,$$
 
 故
 
 $$I=\oint_{l_{\text{逆}}}-\int_{\overline{CA}}=\int_0^{2\pi}\frac{\delta^2}{\delta^2}\,\mathrm{d}t-\int_0^1\frac{\mathrm{d}y}{1+y^2}=2\pi-\frac{\pi}{4}=\frac{7\pi}{4}.$$
 
-【注】解法 1 利用积分与路径无关，不能取 $\overline{CA}$ 的原因是闭曲线 $\overparen{ABEC}+\overline{CA}$ 中含 $(0,0)$，而 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}=\dfrac{y^2-x^2}{(x^2+y^2)^2}$ 在点 $(0,0)$ 处没有意义．
+【注】解法 1 利用积分与路径无关，不能取 $\overline{CA}$ 的原因是闭曲线 $\overgroup{ABEC}+\overline{CA}$ 中含 $(0,0)$，而 $\dfrac{\partial Q}{\partial x}=\dfrac{\partial P}{\partial y}=\dfrac{y^2-x^2}{(x^2+y^2)^2}$ 在点 $(0,0)$ 处没有意义．
 
 +++
 
