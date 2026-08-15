@@ -15,7 +15,7 @@ C. $-\dfrac13(1-x^2)^{\frac32}+C$
 D. $-\dfrac23(1-x^2)^{\frac32}+C$
 ;;;C
 
----
+***
 
 **C.**
 
@@ -42,7 +42,7 @@ C. 当 $f(x)$ 为周期函数时，$F(x)$ 必为周期函数
 D. 当 $f(x)$ 为单调函数时，$F(x)$ 必为单调函数
 ;;;A
 
----
+***
 
 **A.**
 
@@ -59,7 +59,7 @@ C. $2x\sin x^2\mathrm{d}x$
 D. $2x\sin x^4\mathrm{d}x$
 ;;;D
 
----
+***
 
 **D.**
 
@@ -78,7 +78,7 @@ C. $F(x)$ 在 $x=\pi$ 处连续但不可导
 D. $F(x)$ 在 $x=\pi$ 处可导
 ;;;C
 
----
+***
 
 **C.**
 
@@ -101,7 +101,7 @@ C. $P<M<N$
 D. $P<N<M$
 ;;;B
 
----
+***
 
 **B.**
 
@@ -126,7 +126,7 @@ C. $a=0$，$b=1$，$c=-2$
 D. $a=1$，$b=1$，$c=1$
 ;;;A
 
----
+***
 
 **A.**
 
@@ -151,7 +151,7 @@ C. $\int_{-1}^1\dfrac{\mathrm{d}x}{\sin x}$
 D. $\int_{-\infty}^{+\infty}\dfrac{x}{\sqrt{1+x^2}}\,\mathrm{d}x$
 ;;;A
 
----
+***
 
 **A.**
 
@@ -224,7 +224,7 @@ $$
 
 #### 基础填空 (1) 设 $F(x)$ 是 $f(x)$ 的一个原函数，$F\!\left(\dfrac{\pi}{4}\right)=0$，当 $\dfrac{\pi}{4}<x<\dfrac{\pi}{2}$ 时，$F(x)>0$，$F(x)f(x)=\dfrac{\ln(\tan x)}{\sin x\cos x}$，则 $f(x)=\underline{\quad}$。
 
----
+***
 
 $\dfrac{1}{\sin x\cos x}$。
 
@@ -250,7 +250,7 @@ $$
 
 #### 基础填空 (2) 设对任意 $x$，有 $f(x+4)=f(x)$，且 $f'(x)=1+|x|$，$x\in[-2,2]$，$f(0)=1$，则 $f(9)=\underline{\quad}$。
 
----
+***
 
 $\dfrac{5}{2}$。
 
@@ -272,7 +272,7 @@ $$
 
 #### 基础填空 (3) (Ⅰ) 设 $f(x)=\displaystyle\int_0^x\sin(x-t)^2\,\mathrm{d}t$，则 $f'(x)=\underline{\quad}$；(Ⅱ) 设 $F(x)=\displaystyle\int_0^x tf(x^2-t^2)\,\mathrm{d}t$，$f(x)$ 是连续函数，则 $F'(x)=\underline{\quad}$；(Ⅲ) 设 $F(x)=\displaystyle\int_0^x tf(x^2-t^2)\,\mathrm{d}t$，$f(x)$ 在 $x=0$ 某邻域内可导，且 $f(0)=0$，$f'(0)=1$，则 $\lim\limits_{x\to0}\dfrac{F(x)}{x^4}=\underline{\quad}$；(Ⅳ) 设 $\alpha(x)=\displaystyle\int_0^{5x}\dfrac{\sin t}{t}\,\mathrm{d}t$，$\beta(x)=\displaystyle\int_0^{\sin x}(1+t)^{\frac{1}{t}}\,\mathrm{d}t$，则 $\lim\limits_{x\to0}\dfrac{\alpha(x)}{\beta(x)}=\underline{\quad}$；(Ⅴ) 极限 $\lim\limits_{x\to0}\dfrac{\displaystyle\int_{\cos x}^1 t\ln t\,\mathrm{d}t}{x^4}=\underline{\quad}$；(Ⅵ) 极限 $\lim\limits_{x\to0}\dfrac{\displaystyle\int_0^x\left[\int_0^{u^2}\arctan(1+t)\,\mathrm{d}t\right]\mathrm{d}u}{x(1-\cos x)}=\underline{\quad}$。
 
----
+***
 
 (Ⅰ) $\sin x^2$；(Ⅱ) $xf(x^2)$；(Ⅲ) $\dfrac{1}{4}$；(Ⅳ) $\dfrac{5}{\mathrm{e}}$；(Ⅴ) $-\dfrac{1}{8}$；(Ⅵ) $\dfrac{\pi}{6}$。
 
@@ -326,7 +326,7 @@ $$
 
 #### 基础填空 (4) 函数 $y=\dfrac{x^2}{\sqrt{1-x^2}}$ 在 $\left[\dfrac{1}{2},\dfrac{\sqrt{3}}{2}\right]$ 上的平均值为 $\underline{\quad}$。
 
----
+***
 
 $\dfrac{(\sqrt{3}+1)\pi}{12}$。
 
@@ -342,7 +342,7 @@ $$
 
 #### 基础填空 (5) 曲线 $y=\dfrac{\sqrt{x}}{1+x^2}$ 绕 $x$ 轴旋转一周所得的旋转体，将它在 $x=0$ 与 $x=\xi\ (\xi>0)$ 之间部分的体积记为 $V(\xi)$，且 $V(a)=\dfrac{1}{2}\lim\limits_{\xi\to+\infty}V(\xi)$，则 $a=\underline{\quad}$。
 
----
+***
 
 $1$。
 
@@ -358,7 +358,7 @@ $$
 
 #### 基础填空 (6) 曲线 $r=a\sin^3\dfrac{\theta}{3}\ (a>0,\ 0\leqslant\theta\leqslant 3\pi)$ 的弧长 $s=\underline{\quad}$。
 
----
+***
 
 $\dfrac{3\pi a}{2}$。
 
@@ -372,7 +372,7 @@ $$
 
 #### 基础填空 (7) 曲线 $y=\displaystyle\int_{-\frac{\pi}{2}}^{x}\sqrt{\cos t}\,\mathrm{d}t$ 的全长 $s=\underline{\quad}$。
 
----
+***
 
 $4$。
 
@@ -386,7 +386,7 @@ $$
 
 #### 基础填空 (8) 由曲线 $y=\ln x$ 与两直线 $y=(\mathrm{e}+1)-x$ 及 $y=0$ 所围平面图形的面积 $S=\underline{\quad}$。
 
----
+***
 
 $\dfrac{3}{2}$。
 
@@ -406,7 +406,7 @@ $$
 
 #### 基础填空 (9) 设 $D$ 是由曲线 $y=\sin x+1$ 与直线 $x=0$，$x=\pi$，$y=0$ 所围平面图形，则 $D$ 绕 $x$ 轴旋转一周所得旋转体的体积 $V=\underline{\quad}$。
 
----
+***
 
 $\dfrac{3}{2}\pi^2+4\pi$。
 
@@ -424,7 +424,7 @@ $$
 
 #### 基础填空 (10) 设 $n$ 为正数，$\lim\limits_{x\to0}\left(\dfrac{n-x}{n+x}\right)^{\frac{2}{x}}=\displaystyle\int_{\frac{1}{n}}^{+\infty}x\mathrm{e}^{-4x}\,\mathrm{d}x$，则 $n=\underline{\quad}$。
 
----
+***
 
 $\dfrac{4}{15}$。
 
@@ -448,7 +448,7 @@ $$
 （Ⅳ）$\displaystyle\int\dfrac{\arctan x}{x^2(1+x^2)}\mathrm{d}x$；
 （Ⅴ）$\displaystyle\int\dfrac{x+\ln(1-x)}{x^2}\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）
 
@@ -518,7 +518,7 @@ $$
 （Ⅴ）$\displaystyle\int\dfrac{\arctan\sqrt{x-1}}{x\sqrt{x-1}}\mathrm{d}x$；
 （Ⅵ）$\displaystyle\int\sqrt{\dfrac{x}{1-x\sqrt{x}}}\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）令 $\sqrt{x}=t$，则 $x=t^2$，故
 
@@ -618,7 +618,7 @@ $$
 （Ⅴ）$\displaystyle\int\dfrac{\mathrm{d}x}{\sin 2x+2\sin x}$；
 （Ⅵ）$\displaystyle\int\dfrac{\mathrm{d}x}{a^2\sin^2x+b^2\cos^2x}\ (a^2+b^2>0)$．
 
----
+***
 
 （Ⅰ）
 
@@ -746,7 +746,7 @@ $$
 （Ⅴ）$\displaystyle\int\dfrac{1}{x^2}\sqrt{\dfrac{1-x}{1+x}}\mathrm{d}x$；
 （Ⅵ）$\displaystyle\int\mathrm{e}^{2x}(1+\tan x)^2\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）用分部积分法．
 
@@ -842,7 +842,7 @@ $$
 （Ⅲ）$\displaystyle\int_{-2}^{2}(x+|x|)\mathrm{e}^{-|x|}\mathrm{d}x$；
 （Ⅳ）$\displaystyle\int_{-1}^{1}\dfrac{2x^2+x(\mathrm{e}^x+\mathrm{e}^{-x})}{1+\sqrt{1-x^2}}\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）在对称区间上积分，考查被积函数的奇偶性．
 
@@ -883,7 +883,7 @@ $$
 （Ⅰ）$\displaystyle\int_0^2(x-1)^2\sqrt{2x-x^2}\,\mathrm{d}x$；
 （Ⅱ）$\displaystyle\int_0^{\pi}(\mathrm{e}^{-\cos x}-\mathrm{e}^{\cos x})\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）
 
@@ -914,7 +914,7 @@ $$
 （Ⅲ）$\displaystyle\int_{-1}^{1}|x-y|\mathrm{e}^x\mathrm{d}x\ (|y|\leqslant1)$；
 （Ⅳ）$\displaystyle\int_0^{\pi}\sqrt{1-\sin x}\,\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）
 
@@ -974,7 +974,7 @@ $$
 （Ⅲ）$\displaystyle\int_0^{\pi}t\sin t\,\mathrm{d}t$；
 （Ⅳ）$\displaystyle\int_0^1\left[\sqrt{2x-x^2}+\sqrt{(1-x^2)^3}\right]\mathrm{d}x$．
 
----
+***
 
 （Ⅰ）由题可知，$x\cos^2x$ 是奇函数，$\sin^2x\cos^2x$ 为偶函数，故
 
@@ -1028,7 +1028,7 @@ $$
 （Ⅰ）$\displaystyle\int_1^{+\infty}\dfrac{\mathrm{d}x}{\mathrm{e}^{x+1}+\mathrm{e}^{3-x}}$；
 （Ⅱ）$\displaystyle\int_{\frac12}^{\frac32}\dfrac{\mathrm{d}x}{\sqrt{|x-x^2|}}$．
 
----
+***
 
 （Ⅰ）令 $x-1=t$，则
 
@@ -1065,7 +1065,7 @@ $$
 
 #### 基础解答 (10) 设 $f(x)$ 在 $[0,a]$ 上具有二阶导数 $(a>0)$，且 $f(x)>0$，$f''(x)>0$，证明：$\displaystyle\int_0^af(x)\mathrm{d}x>af\left(\dfrac a2\right)$．
 
----
+***
 
 证　利用泰勒公式，将 $f(x)$ 在 $x=\dfrac a2$ 处展开为
 
@@ -1089,7 +1089,7 @@ $$
 
 #### 基础解答 (11) 设 $f(x)$ 在 $[a,b]$ 上连续且单调增加，证明：$\displaystyle\int_a^bxf(x)\mathrm{d}x\geqslant\dfrac{a+b}{2}\int_a^bf(x)\mathrm{d}x$．
 
----
+***
 
 证　利用单调性证明．令
 
@@ -1118,7 +1118,7 @@ $$
 
 #### 基础解答 (12) 设 $f(x)$ 在 $[a,b]$ 上连续，且 $y=f(x)$ 的图形关于直线 $x=\dfrac{a+b}{2}$ 对称，证明：$\displaystyle\int_a^bxf(x)\mathrm{d}x=\dfrac{a+b}{2}\int_a^bf(x)\mathrm{d}x$．
 
----
+***
 
 证　利用积分换元法．
 
@@ -1153,7 +1153,7 @@ $$
 
 #### 基础解答 (13) 设 $f(x)$ 在 $[0,+\infty)$ 上连续，且单调增加，证明：当 $0<a<b$ 时，有 $\displaystyle\int_a^bxf(x)\mathrm{d}x\geqslant\dfrac12\left[b\int_0^bf(x)\mathrm{d}x-a\int_0^af(x)\mathrm{d}x\right]$．
 
----
+***
 
 证　利用单调性证明．令
 
@@ -1188,7 +1188,7 @@ $$
 
 #### 基础解答 (14) 求 $f(x)=\displaystyle\int_0^x\dfrac{2t-1}{t^2-t+1}\mathrm{d}t$ 在 $[-1,1]$ 上的最大值与最小值．
 
----
+***
 
 解　对 $f(x)$ 求导有 $f'(x)=\dfrac{2x-1}{x^2-x+1}$，令 $f'(x)=0$，解得 $x=\dfrac12$．
 
@@ -1212,7 +1212,7 @@ $$
 
 #### 基础解答 (15) 设点 $A(a,0)\ (a>0)$，梯形 $OABC$ 的面积为 $S$，曲边梯形 $OABC$ 的面积为 $S_1$，其曲边由 $y=\dfrac12+x^2$ 确定，证明：$\dfrac{S}{S_1}<\dfrac32$．
 
----
+***
 
 解　依题设，如图 3-5 所示，由 $y=\dfrac12+x^2$，有 $y(0)=\dfrac12$，$y(a)=a^2+\dfrac12$，故梯形 $OABC$ 的面积为
 
@@ -1236,7 +1236,7 @@ $$
 
 #### 基础解答 (16) 设曲线 $y=\sin x\left(0\leqslant x\leqslant\dfrac{\pi}{2}\right)$，直线 $y=k\ (0\leqslant k\leqslant1)$ 与 $x=0$ 所围面积为 $S_1$，$y=\sin x\left(0\leqslant x\leqslant\dfrac{\pi}{2}\right)$，$y=k$ 与 $x=\dfrac{\pi}{2}$ 所围面积为 $S_2$，求 $S=S_1+S_2$ 的最小值．
 
----
+***
 
 解　由已知，如图 3-6 所示．
 
@@ -1277,7 +1277,7 @@ $$
 （Ⅰ）求 $D_1$ 绕直线 $x=\dfrac{\pi}{2}$ 旋转一周所得体积 $V_1$；
 （Ⅱ）求 $D_2$ 绕 $y$ 轴旋转一周所得体积 $V_2$．
 
----
+***
 
 （Ⅰ）如图 3-7 所示，用微元法．
 
@@ -1314,7 +1314,7 @@ $$
 （Ⅱ）求弧长 $L$；
 （Ⅲ）求绕 $x$ 轴旋转一周所得体积 $V$ 和表面积 $S$．
 
----
+***
 
 （Ⅰ）星形线如图 3-8 所示．
 
@@ -1347,7 +1347,7 @@ $$
 
 #### 基础解答 (19) 设立体图形的底是介于 $y=x^2-1$ 和 $y=0$ 之间的平面区域，而它的垂直于 $x$ 轴的任一截面是等边三角形，求立体体积 $V$．
 
----
+***
 
 解　依题意，立体如图 3-9 所示，先求垂直于 $x$ 轴截面的面积
 
@@ -1375,7 +1375,7 @@ C. $F(x)$ 不是常数
 D. $F(x)$ 恒为零
 ;;;A
 
----
+***
 
 **A**。
 
@@ -1408,7 +1408,7 @@ C. $I<0$
 D. 不能确定
 ;;;B
 
----
+***
 
 **B**。
 
@@ -1437,7 +1437,7 @@ C. $1<I_1<I_2$
 D. $I_1<I_2<1$
 ;;;A
 
----
+***
 
 **A**。
 
@@ -1469,7 +1469,7 @@ C. ②④
 D. ①④
 ;;;D
 
----
+***
 
 **D**。
 
@@ -1524,7 +1524,7 @@ C. $k>1$
 D. $k<1$
 ;;;D
 
----
+***
 
 **D**。
 
@@ -1553,7 +1553,7 @@ C. $2\int_0^{b}f(a-x)\,\mathrm{d}x$
 D. $0$
 ;;;C
 
----
+***
 
 **C**。
 
@@ -1582,7 +1582,7 @@ C. $0$
 D. 不存在
 ;;;B
 
----
+***
 
 **B**。
 
@@ -1605,7 +1605,7 @@ C. 高阶无穷小
 D. 低阶无穷小
 ;;;A
 
----
+***
 
 **A**。
 
@@ -1638,7 +1638,7 @@ C. $I$ 依赖于 $s,t$
 D. $I$ 依赖于 $s,t,x$
 ;;;B
 
----
+***
 
 **B**。
 
@@ -1661,7 +1661,7 @@ C. $p<1$ 且 $q<1$
 D. $p<1$ 且 $q>1$
 ;;;A
 
----
+***
 
 **A**。
 
@@ -1685,7 +1685,7 @@ $$
 
 #### 综合填空 (1) $f(x)=\max\{1,x^2\}$ 在 $(-\infty,+\infty)$ 内满足 $F(0)=1$ 的一个原函数为 $\underline{\quad}$。
 
----
+***
 
 $$
 F(x)=\begin{cases}\dfrac13x^3+\dfrac13,&x<-1,\\[2mm] x+1,&-1\leqslant x\leqslant1,\\[2mm] \dfrac13x^3+\dfrac53,&x>1.\end{cases}
@@ -1717,7 +1717,7 @@ $$
 
 #### 综合填空 (2) 设 $f(x)$ 在 $[a,b]$ 上连续，若 $x_0\in[a,b]$，$x\in[a,b]$，则极限 $\lim\limits_{\Delta x\to0}\dfrac{1}{\Delta x}\int_{x_0}^{x}[f(t+\Delta x)-f(t)]\,\mathrm{d}t=\underline{\quad}$。
 
----
+***
 
 $f(x)-f(x_0)$。
 
@@ -1747,7 +1747,7 @@ $$
 
 #### 综合填空 (3) 由曲线 $y=x(x-1)(2-x)$ 与 $x$ 轴围成的平面图形的面积 $A=\underline{\quad}$。
 
----
+***
 
 $\dfrac12$。
 
@@ -1761,7 +1761,7 @@ $$
 
 #### 综合填空 (4) 双纽线 $(x^2+y^2)^2=x^2-y^2$ 围成的平面图形的面积为 $\underline{\quad}$。
 
----
+***
 
 $1$。
 
@@ -1781,7 +1781,7 @@ $$
 
 #### 综合填空 (5) 已知 $f'(\mathrm{e}^x)=x\mathrm{e}^{-x}$，且 $f(1)=0$，则 $f(x)=\underline{\quad}$。
 
----
+***
 
 $\dfrac{(\ln x)^2}{2}$。
 
@@ -1797,7 +1797,7 @@ $$
 
 #### 综合填空 (6) 已知 $f'(x)=\sqrt{1-\cos2x}$，$x\in\left[-\dfrac{\pi}{2},\dfrac{\pi}{2}\right]$，$f(0)=0$，则 $f(x)=\underline{\quad}$。
 
----
+***
 
 $$
 f(x)=\begin{cases}\sqrt2(1-\cos x),&0\leqslant x\leqslant\dfrac{\pi}{2},\\[2mm] \sqrt2(\cos x-1),&-\dfrac{\pi}{2}\leqslant x<0.\end{cases}
@@ -1821,7 +1821,7 @@ $$
 
 #### 综合填空 (7) 设 $f(x)$ 连续，$g(x)=\int_0^{x^2}xf(t)\,\mathrm{d}t$，且 $g(1)=1$，$g'(1)=5$，则 $f(1)=\underline{\quad}$。
 
----
+***
 
 $2$。
 
@@ -1843,7 +1843,7 @@ $$
 
 #### 综合填空 (8) 设 $f(2)=\dfrac12$，$f'(2)=0$，且 $\int_0^{2}f(x)\,\mathrm{d}x=1$，则 $I=\int_0^{1}x^2f''(2x)\,\mathrm{d}x=\underline{\quad}$。
 
----
+***
 
 $0$。
 
@@ -1869,7 +1869,7 @@ $$
 
 #### 综合填空 (9) 设 $f(x)=\int_0^{x}\mathrm{e}^{\cos t}\,\mathrm{d}t$，则 $I=\int_0^{\pi}f(x)\cos x\,\mathrm{d}x=\underline{\quad}$。
 
----
+***
 
 $\mathrm{e}^{-1}-\mathrm{e}$。
 
@@ -1887,7 +1887,7 @@ $$
 
 #### 综合填空 (10) 设 $\int_0^{+\infty}\dfrac{\sin x}{x}\,\mathrm{d}x=\dfrac{\pi}{2}$，则 $I=\int_0^{+\infty}\dfrac{\sin^2x}{x^2}\,\mathrm{d}x=\underline{\quad}$。
 
----
+***
 
 $\dfrac{\pi}{2}$。
 
@@ -1912,7 +1912,7 @@ $$
 （Ⅰ）设 $f(x)=\displaystyle\int_1^x\dfrac{\mathrm{d}t}{\sqrt{1+t^4}}$，求 $I=\displaystyle\int_0^1x^2f(x)\mathrm{d}x$；
 （Ⅱ）设 $f(x)=\displaystyle\int_1^{x^2}\mathrm{e}^{-t^2}\mathrm{d}t$，求 $I=\displaystyle\int_0^1xf(x)\mathrm{d}x$。
 
----
+***
 
 （Ⅰ）
 
@@ -1941,7 +1941,7 @@ $$
 
 #### 综合解答 (2) 设 $f(\sin^2x)=\dfrac{x}{\sin x}$，求 $I=\displaystyle\int\dfrac{\sqrt{x}}{\sqrt{1-x}}f(x)\mathrm{d}x$。
 
----
+***
 
 令 $\sin^2x=t$，则 $\sin x=\pm\sqrt{t}$，由 $\sqrt{x}\geqslant0$，$\sqrt{1-x}\geqslant0$，可知 $x\geqslant0$，$1-x\geqslant0$，故 $0\leqslant x\leqslant1$，所以 $\sin x\geqslant0$。
 
@@ -1960,7 +1960,7 @@ $$
 
 #### 综合解答 (3) 计算积分 $I=\displaystyle\int\mathrm{e}^{\sin x}\cdot\dfrac{x\cos^3x-\sin x}{\cos^2x}\mathrm{d}x$。
 
----
+***
 
 $$
 \begin{aligned}
@@ -1975,7 +1975,7 @@ $$
 
 #### 综合解答 (4) 计算 $I=\displaystyle\int\dfrac{\mathrm{e}^{-\sin x}\cdot\sin 2x}{\sin^4\left(\dfrac{\pi}{4}-\dfrac{x}{2}\right)}\mathrm{d}x$。
 
----
+***
 
 $$
 \begin{aligned}
@@ -1991,7 +1991,7 @@ $$
 
 #### 综合解答 (5) 设 $f(\ln x)=\dfrac{\ln(1+x)}{x}$，求 $I=\displaystyle\int f(x)\mathrm{d}x$。
 
----
+***
 
 令 $\ln x=t$，则 $x=\mathrm{e}^{t}$，故 $f(t)=f(\ln x)=\dfrac{\ln(1+\mathrm{e}^{t})}{\mathrm{e}^{t}}$，
 
@@ -2007,7 +2007,7 @@ $$
 
 #### 综合解答 (6) 设 $f'(x)=\arctan(x-1)^2$，$f(0)=0$，求 $I=\displaystyle\int_0^1f(x)\mathrm{d}x$。
 
----
+***
 
 $$
 \begin{aligned}
@@ -2027,7 +2027,7 @@ $$
 
 #### 综合解答 (7) 求极限 $\lim\limits_{x\to0}\dfrac{\dfrac12\displaystyle\int_0^2x\sqrt{4-x^2u^2}\,\mathrm{d}u-2x}{\sqrt{1+2x^3}-1}$。
 
----
+***
 
 当 $x\to0$ 时，$\sqrt{1+2x^3}-1\sim\dfrac12\cdot2x^3=x^3$，又
 
@@ -2054,7 +2054,7 @@ $$
 
 求函数 $f(x)$ 及其极值。
 
----
+***
 
 $$
 \int_0^xtf(t^2-x^2)\mathrm{d}t=\frac12\int_0^xf(t^2-x^2)\mathrm{d}(t^2-x^2)\xlongequal{u=t^2-x^2}\frac12\int_{-x^2}^0f(u)\mathrm{d}u,
@@ -2082,7 +2082,7 @@ $$
 
 求 $f(x)$ 的表达式。
 
----
+***
 
 在已知等式两端同时对 $x$ 求导，得
 
@@ -2102,7 +2102,7 @@ $$
 
 #### 综合解答 (10) 设 $f(x)$ 在 $[1,2]$ 上可导，且 $\displaystyle\int_0^xtf(2x-t)\mathrm{d}t=\dfrac12\arctan x^2$，$f(1)=\dfrac12$，证明：至少存在一点 $\xi\in(1,2)$，使得 $f'(\xi)=0$。
 
----
+***
 
 $$
 \begin{aligned}
@@ -2139,7 +2139,7 @@ $$
 
 #### 综合解答 (11) 设 $f(x)$ 满足 $\mathrm{e}^{-x}-\dfrac{x^2}{2}=1+\displaystyle\int_0^xf(t-x)\mathrm{d}t$，求 $f(x)$ 在 $(-\infty,+\infty)$ 内的最值。
 
----
+***
 
 $$
 \int_0^xf(t-x)\mathrm{d}t\xlongequal{t-x=u}\int_{-x}^0f(u)\mathrm{d}u.
@@ -2159,7 +2159,7 @@ $$
 
 #### 综合解答 (12) 求 $f(x)=\displaystyle\int_0^{x^2}(2-t)\mathrm{e}^{-t}\mathrm{d}t$ 的最大值和最小值。
 
----
+***
 
 因为 $f(x)$ 是偶函数，所以只需求 $f(x)$ 在 $[0,+\infty)$ 上的最值即可。
 
@@ -2177,7 +2177,7 @@ $$
 
 #### 综合解答 (13) 证明：$\lim\limits_{n\to\infty}\displaystyle\int_0^1\dfrac{x^n}{1+x}\mathrm{d}x=0$。
 
----
+***
 
 **证法 1** 利用夹逼准则，当 $x\in[0,1]$ 时，有 $0\leqslant\dfrac{x^n}{1+x}\leqslant x^n$。
 
@@ -2205,7 +2205,7 @@ $$
 
 #### 综合解答 (14) 求极限 $\lim\limits_{n\to\infty}\left(\dfrac{2^{\frac1n}}{n+1}+\dfrac{2^{\frac2n}}{n+\dfrac12}+\cdots+\dfrac{2^{\frac{n}{n}}}{n+\dfrac1n}\right)$。
 
----
+***
 
 令 $x_n=\dfrac{2^{\frac1n}}{n+1}+\dfrac{2^{\frac2n}}{n+\dfrac12}+\cdots+\dfrac{2^{\frac{n}{n}}}{n+\dfrac1n}$，则
 
@@ -2219,7 +2219,7 @@ $$
 
 #### 综合解答 (15) 求极限 $\lim\limits_{n\to\infty}\dfrac1n\sqrt[n]{n(n+1)(n+2)\cdots(2n-1)}$。
 
----
+***
 
 令 $x_n=\dfrac1n\sqrt[n]{n(n+1)(n+2)\cdots(2n-1)}$，则
 
@@ -2239,7 +2239,7 @@ $$
 
 #### 综合解答 (16) 设 $\displaystyle\int_0^{+\infty}f(x)\mathrm{d}x$ 收敛，且 $f(x)=\dfrac{1}{1+x^2}-\dfrac{\mathrm{e}^{-x}}{1+\mathrm{e}^{x}}\displaystyle\int_0^{+\infty}f(x)\mathrm{d}x$，求 $\displaystyle\int_0^{+\infty}f(x)\mathrm{d}x$。
 
----
+***
 
 由于 $\displaystyle\int_0^{+\infty}f(x)\mathrm{d}x$ 收敛，记 $\displaystyle\int_0^{+\infty}f(x)\mathrm{d}x=A$（$A$ 为常数）。
 
@@ -2264,7 +2264,7 @@ $$
 
 #### 综合解答 (17) 设 $a_n=\displaystyle\int_0^{\frac{\pi}{4}}\tan^nx\,\mathrm{d}x$，证明：$\dfrac{1}{2(n+1)}<a_n<\dfrac{1}{2(n-1)}$ $(n\geqslant2)$。
 
----
+***
 
 令 $\tan x=t$，则 $x=\arctan t$，故
 
@@ -2284,7 +2284,7 @@ $$
 
 #### 综合解答 (18) 求积分 $I_n=\displaystyle\int_0^1x\ln^nx\,\mathrm{d}x$（$n\geqslant0$ 且为整数）的递推关系，并计算 $I_n$。
 
----
+***
 
 利用分部积分法，得
 
@@ -2312,7 +2312,7 @@ $$
 
 （Ⅱ）计算 $I=\displaystyle\int\dfrac{3x+4}{(x^2+2x+2)^2}\mathrm{d}x$。
 
----
+***
 
 （Ⅰ）当 $n\geqslant1$ 时，
 
@@ -2352,7 +2352,7 @@ $$
 f(1)\leqslant\frac{1}{(2n+2)(2n+3)}.
 $$
 
----
+***
 
 由 $f'(x)=(x-x^2)\sin^{2n}x=0$，得驻点 $x_1=1$，$x_2=k\pi$ $(k=1,2,\cdots)$。
 
@@ -2379,7 +2379,7 @@ $$
 \int_a^bf(x)\mathrm{d}x=\frac12\int_a^bf''(x)(x-a)^2\mathrm{d}x.
 $$
 
----
+***
 
 $$
 \begin{aligned}
@@ -2438,7 +2438,7 @@ $$
 f\left(\frac{a+b}{2}\right)<\frac{1}{b-a}\int_a^b f(x)\mathrm{d}x<\frac{f(a)+f(b)}{2}.
 $$
 
----
+***
 
 **证** 由已知，$y=f(x)$ 的图形如图 3-11 所示。
 
@@ -2482,7 +2482,7 @@ $$
 
 #### 综合解答 (23) 设 $f(x)$ 在 $[a,b](a<b)$ 上连续，且 $\int_a^b f(x)\mathrm{d}x=\int_a^b xf(x)\mathrm{d}x=0$。证明：至少存在不同的 $\xi_1,\xi_2\in(a,b)$，使得 $f(\xi_1)=f(\xi_2)=0$。
 
----
+***
 
 **证** 令 $F(x)=\displaystyle\int_a^x f(t)\mathrm{d}t$，则 $F(a)=0,F(b)=0$。又
 
@@ -2518,7 +2518,7 @@ $$
 
 （Ⅱ）证明：$\lim\limits_{x\to0^+}\theta=\dfrac12$。
 
----
+***
 
 **证** （Ⅰ）令 $F(x)=\displaystyle\int_0^x f(t)\mathrm{d}t+\int_0^{-x}f(t)\mathrm{d}t$，则 $F(x)$ 在 $[0,x]$ 上可导，应用拉格朗日中值定理，并注意到 $F(0)=0$，存在 $\theta\in(0,1)$，使得 $F(x)-F(0)=F'(0+\theta x)x$，即
 
@@ -2549,7 +2549,7 @@ $$
 
 （Ⅱ）又设 $f(x)$ 在 $(0,1)$ 内可导，且 $f'(x)>-\dfrac{2f(x)}{x}$，证明：（Ⅰ）中的 $x_0$ 是唯一的。
 
----
+***
 
 **证** （Ⅰ）依题设，需证存在 $x_0\in(0,1)$，使得 $x_0f(x_0)=\displaystyle\int_{x_0}^1 f(t)\mathrm{d}t$。
 
@@ -2579,7 +2579,7 @@ $$
 
 （Ⅱ）证明：$0\leqslant\displaystyle\int_0^1\sqrt{f(ut)}\,\mathrm{d}t\leqslant\dfrac{2}{3u},u\in(0,1)$。
 
----
+***
 
 **解** （Ⅰ）由已知 $f'(1)=0$，即
 
@@ -2622,7 +2622,7 @@ $$
 
 （Ⅱ）计算 $I=\displaystyle\int_0^{n\pi}x|\cos x|\mathrm{d}x$。
 
----
+***
 
 **解** （Ⅰ）利用换元法。令 $x=nT-t$，
 
@@ -2653,7 +2653,7 @@ $$
 \lim\limits_{a\to0^+}\frac{1}{4a^2}\int_{-a}^a[f(t+a)-f(t-a)]\mathrm{d}t=f'(0).
 $$
 
----
+***
 
 **证** 由积分中值定理，有
 
@@ -2690,7 +2690,7 @@ $$
 
 （Ⅱ）求两曲线与 $x$ 轴所围图形绕 $x$ 轴旋转一周所得旋转体的体积。
 
----
+***
 
 **解** （Ⅰ）$y=a\sqrt{x}$，$y=\ln\sqrt{x}$ 的导数分别为
 
@@ -2719,7 +2719,7 @@ $$
 
 #### 综合解答 (30) 设 $f(x)$ 在 $[a,b]$ 上可导，$f(a)>0,f'(x)>0$，$S_1(x)$ 与 $S_2(x)$ 为如图 3-1 所示阴影部分的面积，证明：存在唯一的 $\xi$，使得 $\dfrac{S_1(\xi)}{S_2(\xi)}=k$（$k$ 为正的常数）。
 
----
+***
 
 **证** 如图 3-13 所示，依题设，需证明存在唯一的 $\xi$，使得 $S_1(\xi)-kS_2(\xi)=0$。
 
@@ -2756,7 +2756,7 @@ $$
 
 #### 综合解答 (31) 求曲线 $4y=\displaystyle\int_0^2 x\sqrt{12-x^2u^2}\,\mathrm{d}u(x\geqslant0)$ 的全长。
 
----
+***
 
 **解** 令 $xu=t$，
 
@@ -2785,7 +2785,7 @@ $$
 
 #### 综合解答 (32) 设平面图形 $D$ 由 $x^2+y^2\leqslant2x$ 与 $y\geqslant x$ 确定，求图形 $D$ 绕直线 $x=2$ 旋转一周所得旋转体的体积。
 
----
+***
 
 **解** 如图 3-14 所示，$D$ 的边界方程分别为
 
@@ -2821,7 +2821,7 @@ $$
 
 #### 综合解答 (33) 求曲线 $y=\mathrm{e}^{-x}\sqrt{\sin x}\,(x\geqslant0)$ 绕 $x$ 轴旋转所得旋转体的体积。
 
----
+***
 
 **解** 先求 $f(x)=\mathrm{e}^{-x}\sqrt{\sin x}\,(x\geqslant0)$ 的定义域。
 
@@ -2845,7 +2845,7 @@ $$
 
 （Ⅱ）求 $D$ 绕直线 $y=2a$ 旋转一周所得旋转体的体积。
 
----
+***
 
 **解** （Ⅰ）如图 3-16 所示，
 
@@ -2875,7 +2875,7 @@ $$
 
 #### 综合解答 (35) 设 $f(x)=x^n\sqrt{1-x^2},x\in[0,1]$ 与 $y=0$ 所围平面区域的面积为 $S_n$，$g(x)=\sin^{\frac n2}x,x\in\left[0,\dfrac\pi2\right]$ 与 $y=0$ 所围平面区域绕 $x$ 轴旋转一周所得体积为 $V_n(n=1,2,\cdots)$，求极限 $\lim\limits_{n\to\infty}\dfrac{\pi S_n}{V_n}$。
 
----
+***
 
 **解** 由已知，$V_n=\pi\displaystyle\int_0^{\frac\pi2}\left(\sin^{\frac n2}x\right)^2\mathrm{d}x=\pi\int_0^{\frac\pi2}\sin^nx\,\mathrm{d}x$，
 
@@ -2903,7 +2903,7 @@ $$
 
 #### 综合解答 (36) 将半径为 $R$ 的球沉入水中，它与水面相切，设球的密度与水的密度相等，现将球从水中取出，问至少需要做功多少？
 
----
+***
 
 **解** 建立如图 3-17 所示的坐标系，圆的方程为
 
@@ -2927,7 +2927,7 @@ $$
 
 #### 综合解答 (37) 设如图 3-2(a)，3-2(b) 所示为同一等腰三角形薄板，已知其底为 $2b$、高为 $h$，将其垂直放入静水中，图(a) 是其底与水面相齐，图(b) 是其顶点与水面相齐，设图(a) 与图(b) 薄板一侧所受压力分别为 $P_1$ 和 $P_2$，求 $\dfrac{P_2}{P_1}$。
 
----
+***
 
 **解** 如图 3-18(a) 中直线 $AC$ 的方程为 $y=\dfrac{b(h-x)}{h}$。用微元法，任取 $[x,x+\mathrm{d}x]\subset[0,h]$，则 $\mathrm{d}P_1=2\rho gxy\,\mathrm{d}x=\dfrac{2\rho gb}{h}(h-x)x\,\mathrm{d}x$，故
 
@@ -2947,7 +2947,7 @@ $$
 
 #### 综合解答 (38) 求曲线 $y=3-|x^2-1|$ 与 $x$ 轴围成封闭图形绕直线 $y=3$ 旋转所得旋转体的体积。
 
----
+***
 
 **解** 曲线的图形如图 3-19 所示。
 
@@ -2969,7 +2969,7 @@ $$
 
 #### 综合解答 (39) 设心形线 $r=4(1+\cos\theta)$ 与 $\theta=0,\theta=\dfrac\pi2$ 所围图形为 $D$，求 $D$ 绕极轴旋转一周所得旋转体的体积。
 
----
+***
 
 **解** 心形线 $r=4(1+\cos\theta)$ 的参数方程为
 
@@ -2996,7 +2996,7 @@ $$
 
 （Ⅱ）求 $S(\alpha)$ 的最小值。
 
----
+***
 
 **解** （Ⅰ）依题设，
 
@@ -3024,7 +3024,7 @@ $$
 
 #### 综合解答 (41) 设 $f(x)$ 在 $[0,+\infty)$ 上连续且单调减少，$f(x)\geqslant0$，$a_n=\displaystyle\sum_{k=1}^n f(k)-\int_1^n f(x)\mathrm{d}x\ (n=1,2,\cdots)$，证明：$\lim\limits_{n\to\infty}a_n$ 存在。
 
----
+***
 
 **证**
 
@@ -3059,7 +3059,7 @@ $$
 
 #### 综合解答 (42) 设 $a_n=\displaystyle\int_0^1 x^n\sqrt{1-x^2}\,\mathrm{d}x$，$b_n=\displaystyle\int_0^{\frac\pi2}\sin^nx\cos^nx\,\mathrm{d}x$，求 $\lim\limits_{n\to\infty}\dfrac{b_n}{a_n}$。
 
----
+***
 
 **解**
 
@@ -3099,7 +3099,7 @@ $$
 （Ⅰ）求曲线 $L$ 在 $\theta=\dfrac{\pi}{4}$ 对应点处的切线 $T$ 的直角坐标方程；
 （Ⅱ）求曲线 $L$、切线 $T$ 与 $x$ 轴所围图形的面积。
 
----
+***
 
 **解**　（Ⅰ）曲线 $L$ 的参数方程为
 
@@ -3146,7 +3146,7 @@ $$
 （Ⅱ）当容器内存满了液体后，平均每分钟从容器顶端抽出 $0.16\ \mathrm{m^3}$ 的液体，当液面降至 $y=0$ 处时，求液体下降的速度；
 （Ⅲ）问抽出全部液体需做多少功？
 
----
+***
 
 **解**　（Ⅰ）
 
@@ -3174,7 +3174,7 @@ $$
 
 #### 拓展解答 (3) 已知曲线 $y=\sqrt{x}$ 与 $y=ax\ (a>0)$ 所围图形绕 $x$ 轴旋转一周与绕 $y$ 轴旋转一周所得旋转体的体积相等，求 $a$ 的值。
 
----
+***
 
 **解**　$y=\sqrt{x}$ 与 $y=ax$ 的交点为 $(0,0)$，$\left(\dfrac{1}{a^2},\dfrac{1}{a}\right)\ (a>0)$。故
 
