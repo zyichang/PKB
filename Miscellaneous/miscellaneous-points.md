@@ -170,3 +170,166 @@ tags: [linux, elf, dynamic-linking, added::2026-08-08]
 
 > [!NOTE]
 > Windows 的对应关系：核心 `.exe` ↔ `/usr/bin/zsh`；可加载库 `.dll` ↔ `/usr/lib64/zsh` 的 `.so`；数据/脚本 ↔ `/usr/share/zsh`。静态链接的程序能独立运行，动态链接的则依赖外部库。
+
++++
+<!-- quizify-card
+tags: [tmux, Termux, 终端工具, added::2026-08-14]
+-->
+
+#### 9. Are tmux and Termux the same software? Is there any difference?
+
+***
+
+不是，两者**完全不同**，只是名字看起来像。
+
+- **tmux**（terminal multiplexer，终端复用器）——一个 Unix **命令行工具**。让一个终端窗口容纳多个 session、window 和分屏 pane。杀手级特性是**会话持久化**：可以 detach 断开，关掉终端或掉了 SSH 连接后再 `tmux attach` 回来，里面的进程仍在运行。可跑在 Linux、macOS、WSL、BSD。
+- **Termux**——一个 **Android 应用**。它是终端模拟器加一套无需 root 的 Linux 环境，自带包管理器 `pkg`（基于 APT），可以装 git、Python、Node、openssh 等。
+
+两者的关系：**Termux 是环境，tmux 是可以在里面运行的工具**。`pkg install tmux` 是很常见的搭配，因为 Android 容易杀后台进程，tmux 能在应用失去焦点时保住正在跑的任务。
+
+| | tmux | Termux |
+| --- | --- | --- |
+| 类型 | 终端复用器（CLI 工具） | 终端模拟器 + Linux 环境（安卓 App） |
+| 平台 | Linux、macOS、BSD、WSL | Android |
+| 用途 | 分屏 / 保持会话不断 | 让安卓有一个可用的 shell |
+| 安装 | `apt install tmux`、`brew install tmux` | Google Play / F-Droid |
+
+> [!NOTE]
+> 名字相似只是巧合：tmux 是 **t**erminal **mu**ltiple**x**er 的缩写；Termux 是 **Term**inal + Uni**x** 的混合词。
+
++++
+<!-- quizify-card
+tags: [Node.js, Windows, 跨平台, added::2026-08-18]
+-->
+
+#### 10. Node.js 在 Windows 和 Linux 上有区别吗？在 Windows 上运行会损失性能吗？
+
+***
+
+Node.js **从来不是只支持 Linux 的**。官方的 Windows 支持从 2011 年的 v0.6 就有了（微软参与开发），这也正是 `libuv` 存在的原因——它把事件循环抽象成跨平台接口，在 Linux 上用 `epoll`，在 Windows 上用 **IOCP**。V8 引擎本身完全跨平台，Windows 是官方的 Tier-1 平台。
+
+所以**纯 JS 的 CPU 密集运算，两个平台性能基本一致**。真正的差别在别处：
+
+- **文件系统密集的操作在 Windows 上更慢** —— `npm install`、文件监听（watch）这类要碰成千上万个小文件的场景，会被 NTFS 的元数据操作和杀毒软件的实时扫描拖慢。这是唯一能明显感受到的地方。把项目目录加进 Windows Defender 的排除列表能挽回不少。
+- **Windows 没有 `fork()`** —— `child_process` 创建子进程更重。
+- **文件名大小写不敏感** —— `require('./MyModule')` 在 Windows 上能跑，在 Linux 的 CI 上就崩。经典的"在我机器上是好的"。
+- **原生模块（node-gyp）** 需要 Visual Studio Build Tools，而不是 `gcc` / `make`。
+- **为 bash 写的 npm scripts 会失败** —— `rm -rf`、`NODE_ENV=production node x.js`、`$VAR` 与 `%VAR%`。用 `cross-env` 和 `rimraf` 保持跨平台。
+
+> [!WARNING]
+> 用 WSL 时**不要**让 WSL 里的 Node 去操作 `/mnt/c` 下的文件——那要跨 9p 文件系统桥，比两种原生方案都慢得多。二选一：Windows 的 Node 配 `C:\` 上的项目，或 WSL 的 Node 配 `~`（Linux 文件系统）下的项目。不要混用。
+
++++
+<!-- quizify-card
+tags: [Node.js, nvm, fnm, 版本管理, added::2026-08-18]
+-->
+
+#### 11. 为什么需要 Node 版本管理器（nvm / fnm）？能不能直接装一个自己想要的版本？
+
+***
+
+可以直接装 —— `winget install OpenJS.NodeJS.LTS` 或官网的 MSI 都能正常工作。
+
+版本管理器的价值在这些场景：
+
+- 不同项目锁定不同的 Node 版本（老项目 20，新项目 24）。没有管理器就只能卸了重装来切换。
+- 仓库里放 `.nvmrc`，版本被记录下来、可复现。
+- 新的大版本出问题时，一条命令就能回退。
+- 避免全局 npm 包装进 `Program Files`——那需要管理员权限，还容易出权限错误。
+
+如果只有一个项目、一个版本，直接装确实更简单。痛点通常是后来才出现的，届时再补装管理器就得先清理掉直装的版本。
+
+> [!IMPORTANT]
+> Windows 上两个坑：
+> 1. **`nvm-windows`（coreybutler）和 Unix 的 `nvm` 是完全不同的两个项目**，只是名字像。命令不一样，而且 `nvm use` 需要管理员权限的终端（它靠切换符号链接实现）。
+> 2. 现在更推荐 **`fnm`**。Windows、WSL、macOS 上是同一个工具，速度快得多，能读 `.nvmrc`，装上 shell hook 后可按目录自动切换。
+
+```powershell
+winget install Schniz.fnm
+fnm install --lts
+fnm default lts-latest
+corepack enable        # 需要 pnpm / yarn 时
+```
+
+截至 2026-08：Node **24.x 是 LTS**，26.x 是 Current。
+
++++
+<!-- quizify-card
+tags: [npm, PowerShell, ExecutionPolicy, added::2026-08-18]
+-->
+
+#### 12. 为什么 `npm` 命令在 CMD 里能运行，在 PowerShell 里却报错？
+
+***
+
+因为 Windows 上的 `npm` 不是一个可执行文件。Node 安装器会并排放三个文件：
+
+```text
+npm       ← bash 脚本（git-bash、WSL 用）
+npm.cmd   ← 批处理文件（CMD 用这个）
+npm.ps1   ← PowerShell 脚本（PowerShell 优先用这个）
+```
+
+CMD 根本没有"执行策略"这个概念，直接跑 `npm.cmd`。PowerShell 会把裸名字 `npm` 解析到 `npm.ps1`，而 Windows 客户端版的 `ExecutionPolicy` 默认是 **`Restricted`**，它禁止**所有** `.ps1` 文件，于是报错：
+
+```text
+npm : File ...\npm.ps1 cannot be loaded because running scripts is disabled on this system.
+```
+
+这也解释了为什么 `node -v` 在 PowerShell 里正常、`npm -v` 却不行：`node.exe` 是真正的二进制程序，而 **npm、npx、pnpm、yarn、tsc 全都是脚本壳（script shim）**。
+
++++
+<!-- quizify-card
+tags: [npm, PowerShell, CMD, ExecutionPolicy, added::2026-08-18]
+-->
+
+#### 13. 只用 CMD 跑 npm 可以吗？还是应该改 PowerShell 的执行策略？
+
+***
+
+功能上完全可以：npm 行为一模一样，包装到同一个位置，不会坏。执行策略和 npm 本身的能力无关。但有实际代价：
+
+- **VS Code 的集成终端在 Windows 上默认是 PowerShell**，所以除非同时改默认终端配置，在编辑器里还是会撞上同样的报错。
+- **fnm / nvm 的自动切换会失效** —— 按目录读 `.nvmrc` 的 hook 装在 PowerShell profile 里，CMD 没有对应机制，只能手动切版本。
+- CMD 的历史记录、Tab 补全都更弱，默认也不是 UTF-8。
+
+不改策略的临时办法：在 PowerShell 里显式写 `npm.cmd install`。点名批处理文件就绕过了 `.ps1` 解析。
+
+推荐的正式做法：
+
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
+
+`RemoteSigned` = 本地自己写的脚本可以跑，从网上下载的必须有签名。`-Scope CurrentUser` 不需要管理员权限，也不影响机器上其他账户。
+
+> [!NOTE]
+> 微软自己的文档明确说明：**执行策略不是安全边界**。它防的是误双击运行脚本，而不是有意的攻击者（`powershell -ExecutionPolicy Bypass` 就能绕过）。`CurrentUser` + `RemoteSigned` 是开发机的惯例配置，比 `Unrestricted` 或 `Bypass` 收敛得多——后两者不推荐。
+
++++
+<!-- quizify-card
+tags: [npm, pnpm, 包管理器, added::2026-08-18]
+-->
+
+#### 14. npm 和 pnpm 有什么区别？
+
+***
+
+两者都从同一个 npm registry 安装，用同一份 `package.json`。区别在于**包在磁盘上怎么摆放**——这一个选择决定了其余所有差异。
+
+**磁盘布局.** npm 把每个包复制进每个项目的 `node_modules`：10 个项目用 React 就有 10 份 React。pnpm 只维护一个全局的**内容寻址存储**（content-addressable store，Windows 上在 `%LOCALAPPDATA%\pnpm\store`），`node_modules` 里放的是指向它的**硬链接**。通常省下 50%~70% 的磁盘，而且同一个包第二次安装几乎零成本，因为不需要复制。
+
+**严格性——这是真正会改变你代码的区别.** npm 会把间接依赖**提升（hoist）**到 `node_modules` 顶层。所以即使 `package.json` 里没写 `debug`，只要 Express 依赖它，你自己的代码 `require('debug')` 也能跑。这叫**幽灵依赖（phantom dependency）**：在你机器上正常，等 Express 哪天换版本或去掉这个依赖就崩。pnpm 顶层只暴露你**声明过的**依赖，幽灵依赖会立刻报错。
+
+这个严格性既是采用 pnpm 的主要理由，也是它偶尔让人难受的原因——一些老包和打包器配置假设了 hoisting。`.npmrc` 里有逃生阀：`public-hoist-pattern`，最后手段是 `node-linker=hoisted`。
+
+**速度.** pnpm 冷装约快 2 倍，热装快得多。但 npm 已经追上不少，单靠这条理由不够强。
+
+**Monorepo.** 两者都支持 workspaces，但 pnpm 更强：`--filter` 指定单个包、`pnpm -r` 递归执行、`workspace:*` 协议引内部依赖。
+
+**lockfile 不能互换** —— `package-lock.json` 与 `pnpm-lock.yaml` 只能提交其中一个。迁移时用 `pnpm import` 从 npm 的 lockfile 转换。
+
+> [!NOTE]
+> Windows 两个注意点：store 要和项目放**同一个盘**，否则硬链接建不了，pnpm 会静默退化成复制；pnpm 用的是 junction 而不是真正的符号链接，所以不需要管理员权限或开发者模式。
+
+选择建议：刚装好 Node 就先用 npm——它随 Node 自带，所有教程都假设它，而且你还没遇到 pnpm 要解决的痛点。等碰到 monorepo、或发现 `node_modules` 吃光 SSD 时再切，用 `corepack enable pnpm`（它通过 `package.json` 的 `packageManager` 字段锁定版本，保持团队一致），而不是全局安装。
