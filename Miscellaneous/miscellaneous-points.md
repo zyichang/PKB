@@ -418,3 +418,83 @@ tags: [FSRS, 间隔重复, Anki, added::2026-09-01]
 4. **限制每日复习上限**（比如 50 ~ 100 张），用两三周把积压磨平，而不是第一天就面对几千张。
 5. **先复习，之后再 Optimize.** 等这轮追赶积累了几百条复习记录，再跑优化器，让参数反映你**实际**记这批单词的方式。
 6. **诚实评分，大部分时候只用 Again 和 Good.** *Hard* 是**通过**，不是失败——把它当成「勉强想起来」会虚高间隔；真的一片空白就按 *Again*，这才是 FSRS 期待的输入。
+
++++
+<!-- quizify-card
+tags: [tmux, 终端, 快捷键, added::2026-09-01]
+-->
+
+#### 18. tmux 里怎么用快捷键在 window（窗口）之间切换？
+
+***
+
+我的配置（`~/.config/tmux/tmux.conf`）里，切换 window 大多是**不需要 prefix** 的——`bind -n` 就表示「无需前缀键」。
+
+| 按键 | 作用 |
+| --- | --- |
+| `Alt+n` / `Alt+p` | 下一个 / 上一个 window（无 prefix） |
+| `Alt+1` … `Alt+9` | 直接跳到第 1 ~ 9 个 window（无 prefix） |
+| `prefix + Ctrl+n` / `Ctrl+p` | 下一个 / 上一个，可连按（`repeat-time 300` 毫秒内） |
+| `prefix + W` | `choose-tree -Z`，可视化的 session / window / pane 选择器 |
+| `Alt+Shift+N` / `Alt+Shift+P` | 把当前 window 在列表里**右移 / 左移**（重排顺序） |
+| `Alt+o` | 在当前目录新建 window |
+
+> [!TIP]
+> 设计思路：**高频动作绑成无 prefix 的 Alt 组合，prefix 只留给低频命令**（分屏、重命名、选择器）。这样即使 prefix 稍难按，日常手感也不受影响。
+
++++
+<!-- quizify-card
+tags: [tmux, 终端原理, 按键编码, added::2026-09-01]
+-->
+
+#### 19. tmux 的 prefix 为什么不能设成 `Ctrl+Win`（Super 键）？
+
+***
+
+因为 **tmux 根本「看不到」Win / Super 键**。
+
+1. tmux 不是 GUI 程序，它只能从终端模拟器拿到一串**字节流**。传统的 xterm 按键编码用一个 modifier 位掩码，只表示 **Shift、Alt、Ctrl、Meta**——**没有 Super 的编码**，所以 `bind Super-x` 压根匹配不到任何输入。
+2. 只有较新的协议（kitty keyboard protocol、Windows Terminal 的 win32-input-mode）才能编码 Super。
+3. 即便能编码，**操作系统 / 窗口管理器会先把它吃掉**：Windows 弹出开始菜单，GNOME 弹出 Activities，macOS 的 Cmd 被应用本身占用。
+
+> [!IMPORTANT]
+> 一个会被窗口管理器抢走的 prefix，比一个稍微难按的 prefix 更糟。
+
++++
+<!-- quizify-card
+tags: [tmux, GNU-Screen, readline, added::2026-09-01]
+-->
+
+#### 20. tmux 默认 prefix 为什么是 `Ctrl+B`？为什么很多人改成 `Ctrl+S`？
+
+***
+
+**`Ctrl+B` 的来历：** tmux 的思路继承自 GNU Screen，而 Screen 用的是 `Ctrl+A`。但 `Ctrl+A` 在 readline 里是 **beginning-of-line**（行首），使用极其频繁，所以 tmux 作者退一格选了 `Ctrl+B`——它在 readline 里是 backward-char（左移一个字符），交互中几乎没人用，「偷」走它的代价最小。
+
+**为什么改成 `Ctrl+S`：**
+
+1. `s` 在 QWERTY 上处于**主键行**（左手无名指原位），而 `b` 要用食指跑到下排中间，很多人还会用错手去按。
+2. `Ctrl+S` 唯一的历史含义是终端流控 **XOFF**，而几乎所有人都会禁用它，所以这个键位基本是**空闲**的。
+3. 想让 prefix 更省力，常见做法是在**操作系统层面把 Caps Lock 映射成 Ctrl**——这样 `Ctrl+S` 就变成主键行上两根相邻手指的动作。
+
++++
+<!-- quizify-card
+tags: [终端, stty, 流控, added::2026-09-01]
+-->
+
+#### 21. 在终端里按 `Ctrl+S` 会「卡住 / 冻结」，这是什么？怎么解决？
+
+***
+
+那不是崩溃，是**终端流控（flow control）**：`Ctrl+S` 发送 **XOFF**，暂停终端输出；`Ctrl+Q` 发送 **XON**，恢复输出。这是纸带打字机时代留下的遗产。
+
+- **临时解冻：** 按 `Ctrl+Q`。
+- **永久关掉：** 在 `~/.zshrc`（或 `~/.bashrc`）里加
+
+```bash
+stty -ixon
+```
+
+- **查看当前状态：** `stty -a | grep ixon`（`-ixon` 表示已关闭）。
+
+关掉之后，`Ctrl+S` 就成了可以自由使用的键位——这也是能把它当 tmux prefix 的前提。
